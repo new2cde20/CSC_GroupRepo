@@ -151,37 +151,37 @@
   right: 0;
 }
 
-.donate-button, .donate-button-2 {
+.donate-button, .donate-button-2, .button {
   background-color: #269CE9;
   border-color: #269CE9;
 }
 
-.donate-button, .donate-button-2 {
+.donate-button, .donate-button-2, .button {
   color: #f2f2f2
 }
 
-.donate-button, .donate-button-2{
+.donate-button, .donate-button-2, .button{
   box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
   user-select: none;
 }
 
-.donate-button, .donate-button-2 {
+.donate-button, .donate-button-2, .button {
   background-image: -webkit-linear-gradient(top, rgba(255,255,255,.3)), rgba(255,255,255,0);
 }
 
-.donate-button, .donate-button-2 {
+.donate-button, .donate-button-2, .button {
   text-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
-.donate-button, .donate-button-2:hover{
+.donate-button, .donate-button-2, .button:hover{
   background-color: #70B9E8;
 }
 
-.donate-button, .donate-button-2:active{
+.donate-button, .donate-button-2, .button:active{
   background: #269CE9;
 }
 
-.donate-button, .donate-button-2{
+.donate-button, .donate-button-2, .button{
   border-radius: 6px;
   margin: 3px 4px 5px;
   height: 50px;
