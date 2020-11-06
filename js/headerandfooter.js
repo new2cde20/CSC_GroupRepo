@@ -30,21 +30,21 @@ class Header extends HTMLElement {
           <a href="newsletters.html" target="_blank">Newsletters</a>
       </div>
       </div>
-  
+
       <div class="dropdown">
-      <a href="info-and-resources.html">  
+      <a href="Resources.html">  
       <button class="dropbtn">Information and Resources</a>
           <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-      <a href="hospitalPartnerships.html">Hospital Partnerships</a>
-      <a href="cancerSupportLinks.html">Cancer Support Links</a>
-      <a href="libraryResourceCenter.html">Library Resource Center</a>
-      <a href="financial.html">Financial</a>
-      <a href="transportation.html">Transportation Services</a>
+      <a href="hospitalPartnerships.html" target="_blank">Hospital Partnerships</a>
+      <a href="cancerSupportLinks.html" target="_blank">Cancer Support Links</a>
+      <a href="libraryResourceCenter.html" target="_blank">Library Resource Center</a>
+      <a href="financial.html" target="_blank">Financial</a>
+      <a href="transportation.html" target="_blank">Transportation Services</a>
       </div>
       </div>
-  
+
       <div class="dropdown">
       <a href="about-center.html"> 
       <button class="dropbtn">About the Center</a>
@@ -59,7 +59,7 @@ class Header extends HTMLElement {
       <a href="contact.html" target="_blank">Contact Us</a>
       </div>
       </div>
-  
+
       <div class="dropdown">
       <a href="support-center.html"> 
       <button class="dropbtn">Support the Center</a>
@@ -71,18 +71,18 @@ class Header extends HTMLElement {
       <a href="https://www.classy.org/give/123486/#!/donation/checkout" target="_blank">Donate</a>
       </div>
       </div>
-  
+
       <div class="dropdown">
       <a href="special-events.html"> 
       <button class="dropbtn">Special Events</a>
           <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-      <a href="annualGolfOuting.html">Annual Golf Outing</a>
-      <a href="2020VirtualFallWalkofHope.html">2020 Virtual FALL Walk of Hope</a>
-      <a href="2020FallUnGala.html">2020 Fall Un-Gala</a>
-      <a href="thirdPartyEvents.html">Third Party Community Events</a>
-      <a href="takeABiteOutOfCancer.html">Take a Bite Out of Cancer</a>
+      <a href="annualGolfOuting.html" target="_blank">Annual Golf Outing</a>
+      <a href="2020VirtualFallWalkofHope.html" target="_blank">2020 Virtual FALL Walk of Hope</a>
+      <a href="2020FallUnGala.html" target="_blank">2020 Fall Un-Gala</a>
+      <a href="thirdPartyEvents.html" target="_blank">Third Party Community Events</a>
+      <a href="takeABiteOutOfCancer.html" target="_blank">Take a Bite Out of Cancer</a>
       </div>
       </div>
   </div>
