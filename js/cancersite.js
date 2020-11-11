@@ -1,30 +1,24 @@
-let closeDropdown = function() {
+var slider_img = document.querySelector('.slider-img');
+var images = ['YACS.jpg', 'horseback-riding.jpeg', 'halloween-dress.jpg', 'children-in-blankets.jpg'];
+var images = ['unGala-web-banner.jpg', 'annual-golf-outing.jpg', 'spring-walk-of-hope.jpg', 'fall-walk-of-hope.jpg', 'Holiday-Spirits.png'];
+var i = 0;
 
-}
-function myFunction(num) {
-  closeDropdown();
-  let someClick = document.getElementById("myDropdown" + num);
-  if(someClick) {
-    someClick.classList.toggle("show");
-    closeDropdown = function() {
-      someClick.classList.remove("show");
-    }
-  } else {
-    closeDropdown = function() {      
-    }
-  }
+function prev(){
+	if(i <= 0) i = images.length;	
+	i--;
+	return setImg();			 
 }
 
-// Closes the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementsByClassName("dropdown-content");
-  var i;
-  for (i = 0; i < myDropdown.length; i++) {
-    var openDropdown = myDropdown[i];
-    if (openDropdown.classList.contains('show')) {
-      openDropdown.classList.remove('show');
-    }
-  }
+function next(){
+	if(i >= images.length-1) i = -1;
+	i++;
+	return setImg();			 
 }
+
+function setImg(){
+    return slider_img.setAttribute('src', "css/family-and-children/"+images[i]);   	
+}
+
+function setImg(){
+    return slider_img.setAttribute('src', "css/special-events-tab-photos/"+images[i])
 }

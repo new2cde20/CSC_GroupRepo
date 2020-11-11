@@ -8,8 +8,7 @@
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Family and Children</title>
         <link rel= "stylesheet" href= "css\style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
-        <!-- <script src="js/cancersite.js"></script> -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">       
         <script src="js/headerandfooter.js"></script>
     </head>
     <body>
@@ -39,11 +38,15 @@
             for you and your family. Let's walk this journey together!</p>
 
     <br>
-    <img src="css/family-and-children/YACS.jpg" alt="Youth Art Making and Cancer Support (YACS)" class="YACS">
-    <img src="css/family-and-children/horseback-riding.jpeg" alt="boy horseback-riding with guide" class="horseback-riding">
-    <img src="css/family-and-children/halloween-dress.jpg" alt="people in Halloween costumes" class="halloween-dress">
-    <img src="css/family-and-children/children-in-blankets.jpg" alt="children standing together in blankets" class="children-in-blankets">
+    <div class="slider">
+        <div class="img-box">
+            <img src="css/family-and-children/YACS.jpg" class="slider-img">
+        </div>
+
+        <button class="slider-btn" onclick="prev()">Prev</button>
+        <button class="slider-btn" onclick="next()">Next</button>
     </div>
+    <script src="js/cancersite.js"></script>
     <main-footer></main-footer>
     </body>
 </html>

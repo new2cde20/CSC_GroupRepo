@@ -8,8 +8,8 @@
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Special Events</title>
         <link rel= "stylesheet" href= "css\style.css">
+        <link rel= "stylesheet" href= "css\bourbon\restyle.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
-        <!-- <script src="js/cancersite.js"></script> -->
         <script src="js/headerandfooter.js"></script>
     </head>
     <body>
@@ -17,32 +17,70 @@
     <div class ="center-text">
     <h1>Special Events</h1>
     <h2>Signature Events (Events Hosted by The Center)</h2>
-    <img src="css/special-events-tab-photos/unGala-web-banner.jpg" alt="harvest moon virtual un-gala" class="virtual-ungala">
-    <img src="css/special-events-tab-photos/annual-golf-outing.jpg" alt="people riding golf cart" class="annual-golf-outing">
-    <img src="css/special-events-tab-photos/spring-walk-of-hope.jpg" alt="three women and child standing" class="spring-walk-of-hope">
-    <img src="css/special-events-tab-photos/fall-walk-of-hope.jpg" alt="three women standing together" class="fall-walk-of-hope">
-    <img src="css/special-events-tab-photos/Holiday-Spirits.png" alt="festive alcoholic drinks" class="holiday-spirits">
-    <br>
+    <div class="slider">
+        <div class="img-box">
+            <img src="css/special-events-tab-photos/unGala-web-banner.jpg" class="slider-img">
+        </div>
 
-    <h2>Ancillary Board Events <br> (Events Hosted by The Center's Community Board of Homewood, <br>
-        Community Board of Mokena, Women's Board, and Junior Board)
-    </h2>
-    <a href="https://www.classy.org/event/csc-jr-board-2020-virtual-fundraising-triathlon/e296738"
-    target="_blank">Virtual Fundraising Triathlon</a><p> - September 23, 2020, October 1, 2020, and October 29, 2020</p>
+        <button class="slider-btn" onclick="prev()">Prev</button>
+        <button class="slider-btn" onclick="next()">Next</button>
+    </div>
+    <script src="js/cancersite.js"></script>
 
-    <a href="https://cancersupportcenter.org/2020-trees-wreath-garland-sale/"
-    target="_blank">Christmas Tree, Wreath, and Garland Sale</a>
-    <p> - Pre-Order: November 23, 2020,<br>
-    Pick-Up/Delivery: November 28, 2020</p>
+    <table class = "responsive-table">
+        <thead>
+            <tr>
+                <th scope="col">Ancillary Board Events</th>
+                <th scope="col">Events Hosted by The Center's Community Board of Homewood, <br>
+                    Community Board of Mokena, Women's Board, and Junior Board</th>
+                <th scope="col">Dates</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Event</th>
+            <td data-title><a href="https://www.classy.org/event/csc-jr-board-2020-virtual-fundraising-triathlon/e296738" target="_blank">
+                Virtual Fundraising Triathlon</a></td>
+            <td data-title>September 23, 2020, October 1, 2020, and October 29, 2020</td>
+        </tr>
+        <tr>
+            <th scope="row">Event</th>
+            <td data-title><a href="https://cancersupportcenter.org/2020-trees-wreath-garland-sale/"
+                target="_blank">Christmas Tree, Wreath, and Garland Sale</a></td>
+            <td data-title> - Pre-Order: November 23, 2020,<br>
+                Pick-Up/Delivery: November 28, 2020</td>
+        </tr>
+        <tr>
+            <th scope="row">Event</th>
+            <td data-title><strong>Raising Spirits Halloween</strong><p> - Junior Board</p></td>
+            <td data-title>TBA</td>
+        </tr>
+        <tr>
+            <th scope="row">Event</th>
+            <td data-title><strong>Red Solo Cup</strong><p> - Community Board of Homewood</p></td>
+            <td data-title>TBA</td>
+        </tr>
+        </tbody>
+    </table>
 
-    <strong>Raising Spirits Halloween</strong><p> - Junior Board TBA</p>
 
-    <strong>Red Solo Cup</strong><p> - Community Board of Homewood TBA</p>
-
-    <h2>Third-Party Events <br>(Events Hosted by Community Groups, Businesses, and<br>
-    Organizations to Benefit The Center)</h2>
-
-    <strong>TBA</strong><p> - 9th Annual MNM RC Lt. Rich Kazik Memoriam Party</p>
+    <table class = "responsive-table">
+        <thead>
+            <tr>
+                <th scope="col">Third-Party Events</th>
+                <th scope="col">Events Hosted by Community Groups, Businesses, and<br>
+                    Organizations to Benefit The Center</th>
+                <th scope="col">Dates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Event</th>
+                <td data-title>9th Annual MNM RC Lt. Rich Kazik Memoriam Party</td>
+                <td data-title><strong>TBA</strong></td>
+            </tr>
+        </tbody>
+    </table>
     </div>
     <main-footer></main-footer>
     </body>
