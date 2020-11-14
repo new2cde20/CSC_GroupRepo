@@ -139,6 +139,11 @@
 	margin-right: auto;
 }
 
+/* CSS for ladies on body image research HTML page */
+.body-image-research {
+	float: right;
+}
+
 /*CSS for top right donate button and donate button on Support the Center HTML page*/
 .button-head {
 	display: inline-block;
@@ -236,7 +241,7 @@ h1, h2, h3, h4 {
 	  font-family: "Overpass";
   }
 
-p, strong, b {
+p, strong, b, i, u {
 	  font-family: "Montserrat";
 }
   
@@ -306,6 +311,33 @@ p, strong, b {
 	from {opacity: .4} 
 	to {opacity: 1}
   }
+  /* End of CSS for automatic slideshow */
+
+/* CSS for clickable slideshow */
+.slider{
+	margin:50px auto;
+	width:50%;
+}
+ 
+.img-box img {
+	width:85%;
+}
+
+.slider-btn{
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;			 
+}
+
+.slider-btn:hover{
+	background: #111;
+}
+/* End of CSS for clickable slideshow */
   
   iframe {
 	margin: auto;
@@ -318,6 +350,7 @@ p, strong, b {
 .footer {
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0 50vh 0 50vh #999999;
 	min-height: 100vh;
 	background-color: #999999;
 	color: white;
@@ -327,7 +360,7 @@ p, strong, b {
 .icon-container {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: #001A4B; */
+    /* background-color: #999999; */
 	justify-content: flex-end;
 	background-color: transparent;
     width: auto;
@@ -619,7 +652,7 @@ p, strong, b {
 
 /* CSS for participant form 1 */
 .participant-form-section-1{
-	max-width: 600px;
+	max-width: 800px;
 	background: #FAFAFA;
 	padding: 50px;
 	margin: 50px auto;
@@ -689,6 +722,13 @@ p, strong, b {
 	background-color: #28739E;
 }
 /* End of CSS for participant form 1*/
+
+/* CSS for checkboxes on participant form 1*/
+.participant-checkboxes {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+	column-count: 1;
+}
 
 /* CSS for registration forms 1 and 2 */
 .volunteer-form-section-1{
@@ -848,4 +888,15 @@ p, strong, b {
 	background-color: #28739E;
 }
 /* End of CSS for volunteer forms */
+
+/*Ancillary Boards Table CSS */
+table, td, th {
+	border: 1px solid black;
+  }
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
 /* End of Janeise's CSS */
