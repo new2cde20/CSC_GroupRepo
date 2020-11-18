@@ -65,10 +65,11 @@
 	margin-top: -15px;
   
   }
-  li{
+
+  /* li{
 	font-size: 20px;
 	margin-left:60px ;
-  }
+  } */ /* We will have to fix this because it affects the CSS for the volunteer forms - it makes them off */
   
   
   * {
@@ -241,7 +242,7 @@ h1, h2, h3, h4 {
 	  font-family: "Overpass";
   }
 
-p, strong, b, i, u {
+p, strong, b, i, u, li {
 	  font-family: "Montserrat";
 }
   
@@ -730,7 +731,7 @@ p, strong, b, i, u {
 	column-count: 1;
 }
 
-/* CSS for registration forms 1 and 2 */
+/* CSS for volunteer registration forms 1 and 2 */
 .volunteer-form-section-1{
 	max-width: 800px;
 	background: #FAFAFA;
