@@ -139,6 +139,11 @@
 	margin-right: 200px;
 }
 
+/* Puts a border around ladies on body-image-research.html page */
+.float-right-imgs {
+	border: 4px solid #555; 
+}
+
 /* Puts a border around Quality of Life image */
 .float-right-imgs-2 {
 	border: 5px solid #555; 
