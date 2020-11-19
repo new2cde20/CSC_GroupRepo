@@ -133,16 +133,20 @@
   }
 /*End of CSS for logo at top left of page*/
 
-/* CSS for lady on info and resources HTML page */
-.book-lady {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+/* CSS for ladies on body image research HTML page and Quality of Life image on programs and activities page */
+.float-right-imgs, .float-right-imgs-2{
+	float: right;
+	margin-right: 200px;
 }
 
-/* CSS for ladies on body image research HTML page */
-.body-image-research {
-	float: right;
+/* Puts a border around Quality of Life image */
+.float-right-imgs-2 {
+	border: 5px solid #555; 
+}
+
+/* Puts a border around Quality of Life image */
+.float-right-imgs-2 {
+	border: 5px solid #555; 
 }
 
 /*CSS for top right donate button and donate button on Support the Center HTML page*/
