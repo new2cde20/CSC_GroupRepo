@@ -1,58 +1,76 @@
-<!doctype html>
+<?php
+    $message_sent = false;
+    if(isset($_POST['email']) && $_POST['email'] != '') {
+        if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
+            if ($_POST['human'] == '4') {
+            // submit the form
+            $userName = $_POST['name'];
+            $userEmail = $_POST['email'];
+            $messageSubject = $_POST['subject'];
+            $message = $_POST['message'];
+            $antiSpam = $_POST['human'];
+        
+            $to =""; // CSC email will go here
+            $body = '';
+        
+            $body .="From: ".$userName. "\r\n";
+            $body .="Email: ".$userEmail. "\r\n";
+            $body .="Message: ".$message. "\r\n";
+        
+            mail($to, $messageSubject, $body);
+
+            $message_sent = true;
+            }
+        }
+    }
+
+?>
+
 <html lang="en">
     <head>
         <meta charset = "UTF-8">
-        <meta name= "keywords" content = "HTML, CSS, JavaScript">
+        <meta name= "keywords" content = "HTML, CSS, JavaScript, PHP">
 		<meta name = "description" content = "Contact Us Page">
         <meta name = "author" content = "Janeise Davis">
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Contact Us</title>
         <link rel= "stylesheet" href= "css\style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
+        <!-- <script src="js/cancersite.js"></script> -->
         <script src="js/headerandfooter.js"></script>
     </head>
-    <body>    
-    <main-header></main-header>
+    <body>
+    <?php
+    if($message_sent):
+    ?>
 
+        <h3>Thanks, we'll be in touch</h3>
+
+    <?php
+    else:
+    ?> 
+    <main-header></main-header>
         <div class="center-text">
-        <h1>Contact Us</h1>
-       
-        <div id = "text">
-        <h2 class = "subHeading" style="margin-top: -10px">Our Locations</h2>
-        <br>Homewood Locations<br>
-        <p class="textAroundMap"> 2028 Elm Road, Homewood, Illinois 60430</p>
-        <p class="textAroundMap"> (west of the corner of Dixie Highway and Elm Road)</p>
-        <p class="textAroundMap"> Phone: (708) 798-9171</p>
-        
-        <br>Mokena Location<br>
-        <p class="textAroundMap"> 19645 S. LaGrange Road, Mokena, Illinois 60448</p>
-        <p class="textAroundMap"> (east side of S. Lagrange Road)</p>
-        <p class="textAroundMap"> Phone: (708) 478-3529</p>
-        </div>
-       
-        <div id = "middle">
-        <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1OdWEbspXIfqKY04MEy9FG-Nh60wHpZ_c"></iframe>
-        </div>
-    
         <h1>Contact Form</h1>
         <p>Have any questions or comments you'd like to send us? Feel free to contact us through the contact form below.<br><br>
             Fields with a * are required to be filled out<br>
             <p>Also feel free to email <a href="mailto:csc@cancersupportcenter.org">csc@cancersupportcenter.org</a> 
                 with any program questions you have may.<br></p>
-        
+        </div>        
 
-        <div class = "body-info">
-        <div class="container">
+    <div class = "body-info">
+    <div class="container">
             <form action="contact.php" method="POST" class="form">
                 <div class="form-group">
                     <label for="name" class="form-label">Your Name</label>
                     <input type="text" class="form-control" id="name" 
-                    name="name" placeholder="Your Name" tabindex="1" required>
+                    name="name" placeholder="Name" tabindex="1" required>
+                    
                 </div>
                 <div class="form-group">
                     <label for="email" class="form-label">Your Email</label>
                     <input type="email" class="form-control" id="email" 
-                    name="email" placeholder="Your Email" tabindex="2" required>
+                    name="email" placeholder="Email" tabindex="2" required>
                 </div>
                 <div class="form-group">
                     <label for="subject" class="form-label">Subject</label>
@@ -65,16 +83,19 @@
                     name="message" placeholder="Enter Message..." tabindex="4"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="human" class="form-label">Enter the answer</label>
-                    <input type="text" class="form-control" id="human" 
-                    name="human" placeholder="What is 2+2?" tabindex="5" required>
-                </div>
+                <label for="human" class="form-label">Enter the answer</label>
+                <input type="text" class="form-control" id="human" 
+                name="human" placeholder="What is 2+2?" tabindex="5" required>
+            </div>
                 <div>
                     <button type="submit" class="btn">Send Message!</button>
                 </div>
             </form>
         </div>
-        </div>
+    </div>
     <main-footer></main-footer>
+    <?php
+    endif;
+    ?>        
     </body>
 </html>

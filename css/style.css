@@ -364,16 +364,16 @@ p, strong, b, i, u, li {
   /* End of CSS for automatic slideshow */
 
 /* CSS for clickable slideshow */
-.slider{
-	margin:50px auto;
-	width:50%;
+.slider {
+	margin:35px auto;
+	width:35%;
 }
  
 .img-box img {
-	width:85%;
+	width:100%;
 }
 
-.slider-btn{
+.slider-btn {
 	border:none;
 	outline:none;
 	background:#888;
@@ -384,7 +384,7 @@ p, strong, b, i, u, li {
 	margin:10px auto;			 
 }
 
-.slider-btn:hover{
+.slider-btn:hover {
 	background: #111;
 }
 /* End of CSS for clickable slideshow */
@@ -612,92 +612,45 @@ p, strong, b, i, u, li {
 
 /* Centers first photo*/
 .staff-photos-1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Centers second row of photos*/
-/* .staff-photos-2 {
-  display: block;
-
-} */
-
-/* Centers third row of photos*/
-/* .staff-photos-3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* Centers text underneath first photo*/
-.staff-text-1 {
-  text-align: center;
-}
-
-/* .staff-container {
-	display: flex;
-	justify-content: space-between;
-	padding: 5px;
-}
-
-.staff-container-2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-} */
-
-.Row {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-	border-spacing: 10px; /*Optional*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  /* Centers text underneath first photo*/
+  .staff-text-1 {
 	text-align: center;
-}
-
-.Row-2 {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-	border-spacing: 10px; /*Optional*/
-	text-align: center;
-}
-
-.staff-text-2 {
-	display: table-cell;
-	text-align: center;
-}
-
-.staff-text-2-1 {
-	display: table-cell;
-	width: 15%; /*Optional*/
-	table-layout: fixed; /*Optional*/
-	border-spacing: 10px; /*Optional*/
-	text-align: center;
-}
-
-.staff-text-2-2 {
-	display: table-cell;
-	text-align: center;
-}
-
-.staff-text-3 {
-	display: table-cell;
-	text-align: center;
-}
-
-.staff-text-3-1 {
-	display: table-cell;
-	width: 5%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-	border-spacing: 5px; /*Optional*/
-	text-align: center;
-}
-
-.staff-text-3-2 {
-	display: table-cell;
-	text-align: center;
-}
+  }
+  
+  .Row {
+	  display: table;
+	  width: 100%; /*Optional*/
+	  table-layout: fixed; /*Optional*/
+	  border-spacing: 10px; /*Optional*/
+	  text-align: center;
+  }
+  
+  .Row-2 {
+	  display: table;
+	  width: 100%; /*Optional*/
+	  table-layout: fixed; /*Optional*/
+	  border-spacing: 10px; /*Optional*/
+	  text-align: center;
+  }
+  
+  .staff-text-2, .staff-text-3 {
+	  display: flex;
+	  margin: 0 90px;
+  }
+  
+  .staff-text-2 div, .staff-text-3 div {
+	  display: inline-block;
+	  flex-grow: 1;/* flex:1; would make them equal width */
+	  /* extra ?*/
+	  margin: 0 0.5em;
+	  /* border: solid; */
+	  text-align:center;
+  }
 /* End of CSS for Staff.html page */
 
 /* CSS for participant form 1 */

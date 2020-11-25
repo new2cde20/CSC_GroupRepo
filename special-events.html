@@ -19,13 +19,17 @@
     <h2>Signature Events (Events Hosted by The Center)</h2>
     <div class="slider">
         <div class="img-box">
-            <img src="css/special-events-tab-photos/unGala-web-banner.jpg" class="slider-img">
+            <img src="css/special-events-tab-photos/unGala-web-banner.jpg" class="slider-img-special">
+
+            <div id="captions">
+                <p id="cap">caption</p>
+                </div>
         </div>
 
         <button class="slider-btn" onclick="prev()">Prev</button>
         <button class="slider-btn" onclick="next()">Next</button>
     </div>
-    <script src="js/cancersite.js"></script>
+    <script src="js/specialevents.js"></script>
 
     <table class = "responsive-table">
         <thead>
@@ -53,12 +57,12 @@
         <tr>
             <th scope="row">Event</th>
             <td data-title><strong>Raising Spirits Halloween</strong><p> - Junior Board</p></td>
-            <td data-title>TBA</td>
+            <td data-title><p>TBA</p></td>
         </tr>
         <tr>
             <th scope="row">Event</th>
             <td data-title><strong>Red Solo Cup</strong><p> - Community Board of Homewood</p></td>
-            <td data-title>TBA</td>
+            <td data-title><p>TBA</p></td>
         </tr>
         </tbody>
     </table>
@@ -82,6 +86,41 @@
         </tbody>
     </table>
     </div>
+
+    <div class = "body-info">
+        <div class="container">
+            <form action="specialevents.php" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" 
+                    name="name" placeholder="Jane Doe" tabindex="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" 
+                    name="email" placeholder="jane@doe.com" tabindex="2" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" 
+                    name="subject" placeholder="Hello There!" tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" 
+                    name="message" placeholder="Enter Message..." tabindex="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="human" class="form-label">Enter the answer</label>
+                    <input type="text" class="form-control" id="human" 
+                    name="human" placeholder="What is 2+2?" tabindex="5" required>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Send Message!</button>
+                </div>
+            </form>
+        </div>
+        </div>
     <main-footer></main-footer>
     </body>
 </html>
