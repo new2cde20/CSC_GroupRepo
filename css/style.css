@@ -52,13 +52,6 @@
 	text-align: center;
   }
   
-  /* p{
-	margin-left: 40px;
-	margin-right: 40px;
-	padding-top: 15px;
-	font-size: 20px;   
-  } */
-  
   #library{
 	float: right;
 	padding: 40px;
@@ -116,6 +109,49 @@
 	margin-right: auto;
 	width: 90%;
   }
+
+  .map{
+	width: 640px;
+	height: 480px;
+
+  }
+ 
+  .textAroundMap{
+	  font-size: 11px;
+	  text-align: center;
+  }
+
+  
+  #middle {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    height: 400px;
+	margin-top: 55px;
+	margin-bottom: 200px;;
+	float: left;
+	}
+	
+	#text {
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 30px;
+		margin-top: 20px;
+		width: 25%;
+		height: 500px;
+		margin-left:50px;
+		border-right:double #1e5477;
+		float: left;
+
+		}
+	
+
+
+
+
+
+
+
 /* End of Diana's CSS */
 
 /* Start of Janeise's CSS */
