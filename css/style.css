@@ -195,6 +195,31 @@
 		margin-left: 70px;
 	}
 
+	
+	}
+	.zoomBodyLinks3{
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 30px;
+		padding-left: 50px;
+		float: left;		
+		width: 32%;
+		height: 800px;
+				
+	}
+	#imageFloatsRight{
+		float: right;
+		margin-top: -10px;
+		margin-left: 50px;
+		margin-right: 70px;
+
+	
+
+	#textAroundImage{
+		text-align: justify;
+		margin-left: 70px;
+	}
+
 	/* End of Diana's CSS */
 
 /* Start of Janeise's CSS */
