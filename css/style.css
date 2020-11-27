@@ -51,12 +51,18 @@
 	font-style: italic;
 	text-align: center;
   }
-  
+
+
+
+  /*Images of the book */
   #library{
 	float: right;
-	padding: 40px;
-	margin-top: -15px;
-  
+	padding-left: 80px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+  }
+  .libraryText{
+	  margin-bottom:75px ;
   }
 
   /* li{
@@ -146,10 +152,52 @@
 		border-right:3px solid #1e5477;
 		float: left;
 	}
+	/*Zoom Programming Page*/
+	.zoomBodyLinks1{
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 30px;
+		padding-left: 50px;
+		float: left;
+		width: 32%;
+		height: 800px;
+	}
+	.zoomBodyLinks2{
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 30px;
+		padding-left: 50px;
+		float: left;
+		width: 32%;
+		height: 800px;
 	
+	}
+	.zoomBodyLinks3{
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 30px;
+		padding-left: 50px;
+		float: left;		
+		width: 32%;
+		height: 800px;
+				
+	}
+	#imageFloatsRight{
+		float: right;
+		margin-top: -10px;
+		margin-left: 50px;
+		margin-right: 70px;
+
+	}
+
+	#textAroundImage{
+		text-align: justify;
+		margin-left: 70px;
+	}
 
 	
 
+	
 
 
 
