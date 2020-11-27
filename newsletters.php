@@ -10,7 +10,7 @@
             $message = $_POST['message'];
             $antiSpam = $_POST['human'];
         
-            $to =""; // CSC email goes here
+            $to ="beingstrong40@gmail.com";
             $body = '';
         
             $body .="From: ".$userName. "\r\n";

@@ -10,7 +10,7 @@
             $message = $_POST['message'];
             $antiSpam = $_POST['human'];
         
-            $to =""; // My email was here
+            $to ="beingstrong40@gmail.com";
             $body = '';
         
             $body .="From: ".$userName. "\r\n";
@@ -30,7 +30,7 @@
     <head>
         <meta charset = "UTF-8">
         <meta name= "keywords" content = "HTML, CSS, JavaScript, PHP">
-		<meta name = "description" content = "Contact Us Page">
+		<meta name = "description" content = "Contact Us Form on Special Events Page">
         <meta name = "author" content = "Janeise Davis">
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Contact Us</title>
@@ -50,17 +50,13 @@
     else:
     ?> 
     <main-header></main-header>
-        <div class="center-text">
-        <h1>Contact Form</h1>
-        <p>Have any questions or comments you'd like to send us? Feel free to contact us through the contact form below.<br><br>
-            Fields with a * are required to be filled out<br>
-            <p>Also feel free to email <a href="mailto:csc@cancersupportcenter.org">csc@cancersupportcenter.org</a> 
-                with any program questions you have may.<br></p>
-        </div>        
+    <div class = "center-text">
+        <p>If you have a program question, please email <a href="mailto:csc@cancersupportcenter.org">csc@cancersupportcenter.org</a> or use the form below.</p>
+    </div>      
 
     <div class = "body-info">
     <div class="container">
-            <form action="contact.php" method="POST" class="form">
+            <form action="specialevents.php" method="POST" class="form">
                 <div class="form-group">
                     <label for="name" class="form-label">Your Name</label>
                     <input type="text" class="form-control" id="name" 
