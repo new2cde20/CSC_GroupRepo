@@ -13,7 +13,7 @@ if (!empty($_POST))
     if (!empty($Interests))
     {
         $Interests = implode(',', $Interests);
-        $message .= "<label>Areas of Interests:</label> $Interests<br/>";
+        $message .= "<label>Areas of Interest:</label> $Interests<br/>";
     }
 
     //Availability
