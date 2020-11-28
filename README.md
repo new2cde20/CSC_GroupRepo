@@ -1,6 +1,6 @@
 # cancersocietyproject
 This is a repo for my Software Engineering Capstone project at Lewis University.
-My teammates and I will be making edits as necessary to this project.\
+My teammates and I will be making edits as necessary to this project.
 
 To view the Sass Bourbon tables, you have to install Ruby (I have version 2.7.2 on my\
 Windows machine that I downloaded from this website: https://rubyinstaller.org/ - if\
