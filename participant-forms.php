@@ -72,10 +72,8 @@ if (!empty($_POST))
         {
             $message .= "<label>Hospital:</label> $hospital<br/>";
         }
-        // echo $message;exit;
 
         $header = "From:$email \r\n";
-        //$header .= "Cc:afgh@somedomain.com \r\n";
         $header .= "MIME-Version: 1.0\r\n";
         $header .= "Content-type: text/html\r\n";
         $retval = mail ($to,$subject,$message,$header);
@@ -144,21 +142,6 @@ if (!empty($_POST))
                         </div>
                     </div>
                 </fieldset>
-                
-                <!-- <fieldset>
-                    <legend>Personal Information</legend>
-                    <ul>
-                        <li>
-                            <input type="text" name="name" class="field-style field-split align-left" placeholder="Name*" required />
-                            <input type="email" name="email" class="field-style field-split align-right" placeholder="Email*" required />
-                        
-                        </li>
-                        <li>
-                            <input type="text" name="phone" class="field-style field-split align-left" placeholder="Phone*" required />
-                            <input type="text" name="program" class="field-style field-split align-right" placeholder="Program Attending*" required />
-                        </li>
-                    </ul>
-                </fieldset> -->
             </div>
 
             <div class = "participant-form-section-1">
@@ -228,7 +211,6 @@ if (!empty($_POST))
                 </fieldset>
             </div>
         </form>
-
 
         <main-footer></main-footer>
 

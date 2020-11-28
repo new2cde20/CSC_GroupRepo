@@ -171,10 +171,8 @@ if (!empty($_POST))
     {
         $message .= "<label>Parent/Guardian's Signature if under 18 years old:</label> $app_sign_parent<br/>";
     }
-    // echo $message;exit;
 
     $header = "From:$email \r\n";
-    //$header .= "Cc:afgh@somedomain.com \r\n";
     $header .= "MIME-Version: 1.0\r\n";
     $header .= "Content-type: text/html\r\n";
     $retval = mail ($to,$subject,$message,$header);
@@ -185,8 +183,6 @@ if (!empty($_POST))
         $error = "Message could not be sent..., Try again.";
     }
 }
-    
-
 ?>
 
 <!doctype html>
