@@ -8,6 +8,5 @@ you are not using Windows you can Google "download Ruby" to install it based on 
 system), then install Sass Bourbon into the folder where your project is saved.\
 The instructions to install Sass Bourbon from the command line can be found here:\
 https://www.npmjs.com/package/bourbon#requirements\
-You can also view this video (where the user has a Mac laptop) to see how to install\
-Bourbon on the command line (he installs Bourbon around the 2:25 mark of the video): https://www.youtube.com/watch?v=q5BO71n8Fbk \
+You can also view this video (where the user has a Mac laptop) to see how to install Bourbon on the command line (he installs Bourbon around the 2:25 mark of the video):\ https://www.youtube.com/watch?v=q5BO71n8Fbk \
 To learn more about Bourbon, you can view this page: https://codekitapp.com/help/bourbon/
