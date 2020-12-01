@@ -63,13 +63,7 @@
   }
   .libraryText{
 	  margin-bottom:75px ;
-  }
-
-  /* li{
-	font-size: 20px;
-	margin-left:60px ;
-  } */ /* We will have to fix this because it affects the CSS for the volunteer forms - it makes them off */
-  
+  }  
   
   * {
 	box-sizing: border-box;
