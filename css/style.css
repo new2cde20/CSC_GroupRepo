@@ -470,16 +470,28 @@ p, strong, b, i, u {
 	color: white;
 }
 
-/* CSS for icon container within footer */
-.icon-container {
+/* CSS for container that holds icons and text within footer */
+.footer-container {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: #999999; */
 	justify-content: flex-end;
 	background-color: transparent;
     width: auto;
     margin: 10px;
 }
+
+/* Moves copyright text to the bottom of the left main page */
+.footer-text {
+	margin-right: auto;
+}
+
+/*CSS for grid container within footer */
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	padding: 10px;
+  }
 
 /* Centers all text that should be centered on HTML pages.
 	Also centers volunteer images on Volunteer HTML page. */
@@ -494,7 +506,15 @@ p, strong, b, i, u {
   margin-right: auto;
   width: 275px;
   height: 225px;
+  transition: width 2s, height 2s, transform 2s;
 }
+
+/* Makes images on the main webpage rotate when you hover over them */
+.center-imgs:hover {
+	width: 300px;
+	height: 300px;
+	transform: rotate(25deg);
+  }
 
 /* CSS for location information */
   /* Wraps location information in a box*/
@@ -576,6 +596,7 @@ p, strong, b, i, u {
 
 .hours-container {
   background-color: rgb(215, 255, 248);
+  box-shadow: 0 50vh 0 50vh #D7FFF8;
 }
 /* End of CSS for location information on main webpage */
 
