@@ -55,6 +55,7 @@
 
     <div class = "body-info">
     <div class="container">
+    <p style= "color:#FF0000;">Fields with a * are required to be filled out</p>
             <form action="newsletters.php" method="POST" class="form">
                 <div class="form-group">
                     <label for="name" class="form-label">Your Name</label>

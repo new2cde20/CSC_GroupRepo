@@ -98,54 +98,54 @@ class Footer extends HTMLElement {
     <div class="grid-container">
     <div class="dropdown-one">
     <p><b>Programs and Activities</b><br>
-        Kick It Cancer<br>
-        Zoom Programming<br>
-        On Demand Programming<br>
-        CSC 5 Point Model<br>
-        Education and Networking<br>
-        Family and Children<br>
-        Fitness and Physical Wellness<br>
-        Body Image<br>
-        Nutrition and Diet<br>
-        Nutrition PopUp<br>
-        Calendar Grid and Zoom Registration<br>
-        Participant Forms<br>
-        Newsletters  
+        <a href="kickItCancer.html" style="color: #f9f9f9; text-decoration:none;">Kick It Cancer</a><br>
+        <a href="zoomProgramming.html" style="color: #f9f9f9; text-decoration:none;">Zoom Programming</a><br>
+        <a href="onDemandProgramming.html" style="color: #f9f9f9; text-decoration:none;">On Demand Programming</a><br>
+        <a href="CSC5.html" style="color: #f9f9f9; text-decoration:none;">CSC 5 Point Model</a><br>
+        <a href="education&Networking.html" style="color: #f9f9f9; text-decoration:none;">Education and Networking</a><br>
+        <a href="family-and-children.html" style="color: #f9f9f9; text-decoration:none;">Family and Children</a><br>
+        <a href="fitness-physical-wellness.html" style="color: #f9f9f9; text-decoration:none;">Fitness and Physical Wellness</a><br>
+        <a href="body-image.html" style="color: #f9f9f9; text-decoration:none;">Body Image</a><br>
+        <a href="nutrition-and-diet.html" style="color: #f9f9f9; text-decoration:none;">Nutrition and Diet</a><br>
+        <a href="nutrition-popup-recipes.html" style="color: #f9f9f9; text-decoration:none;">Nutrition Pop Up Recipes</a><br>       
+        <a href="#" style="color: #f9f9f9; text-decoration:none;">Calendar Grid and Zoom Registration</a><br>
+        <a href="participant-forms.html" style="color: #f9f9f9; text-decoration:none;">Participant Forms</a><br>
+        <a href="newsletters.html" style="color: #f9f9f9; text-decoration:none;">Newsletters</a>
     </p>
     </div>
     <div class="dropdown-two">
     <p><b>Information and Resources</b><br>
-    Hospital Partnerships<br>
-    Cancer Support Links<br>
-    Library Resource Center<br>
-    Financial<br>
-    Transportation Services
+        <a href="hospitalPartnerships.html" style="color: #f9f9f9; text-decoration:none;">Hospital Partnerships</a><br>
+        <a href="cancerSupportLinks.html" style="color: #f9f9f9; text-decoration:none;">Cancer Support Links</a><br>
+        <a href="libraryResourceCenter.html" style="color: #f9f9f9; text-decoration:none;">Library Resource Center</a><br>
+        <a href="financial.html" style="color: #f9f9f9; text-decoration:none;">Financial</a><br>
+        <a href="transportation.html" style="color: #f9f9f9; text-decoration:none;">Transportation Services</a>
     </p>
     </div>
     <div class="dropdown-three">
     <p><b>About the Center</b><br>
-    Staff<br>
-    Board of Directors<br>
-    Ancillary Boards<br>
-    In the News<br>
-    CSC Annual Report<br>
-    Contact Us
+        <a href="staff.html" style="color: #f9f9f9; text-decoration:none;">Staff</a><br>
+        <a href="board.html" style="color: #f9f9f9; text-decoration:none;">Board of Directors</a><br>
+        <a href="ancillary-boards.html" style="color: #f9f9f9; text-decoration:none;">Ancillary Boards</a><br>
+        <a href="news.html" style="color: #f9f9f9; text-decoration:none;">In the News</a><br>
+        <a href="annual-report.html" style="color: #f9f9f9; text-decoration:none;">CSC Annual Report</a><br>
+        <a href="contact.html" style="color: #f9f9f9; text-decoration:none;">Contact Us</a>
     </p>
     </div>
     <div class="dropdown-four">
     <p><b>Support the Center</b><br>
-    Volunteer Opportunities<br>
-    Consignment Shop<br>
-    Donate<br>
+        <a href="volunteer.html" style="color: #f9f9f9; text-decoration:none;">Volunteer Opportunities</a><br>
+        <a href="http://www.villagedoor.com/" style="color: #f9f9f9; text-decoration:none;">Consignment Shop</a><br>
+        <a href="https://www.classy.org/give/123486/#!/donation/checkout" style="color: #f9f9f9; text-decoration:none;">Donate</a>
     </p>
     </div>
     <div class="dropdown-five">
     <p><b>Special Events</b><br>
-    Annual Golf Outing<br>
-    2020 Virtual FALL Walk of Hope<br>
-    2020 Fall Un-Gala<br>
-    Third Party Community Events<br>
-    Take a Bite Out of Cancer
+        <a href="annualGolfOuting.html" style="color: #f9f9f9; text-decoration:none;">Annual Golf Outing</a><br>
+        <a href="2020VirtualFallWalkofHope.html" style="color: #f9f9f9; text-decoration:none;">2020 Virtual FALL Walk of Hope</a><br>
+        <a href="2020FallUnGala.html" style="color: #f9f9f9; text-decoration:none;">2020 Fall Un-Gala</a><br>
+        <a href="thirdPartyEvents.html" style="color: #f9f9f9; text-decoration:none;">Third Party Community Events</a><br>
+        <a href="takeABiteOutOfCancer.html" style="color: #f9f9f9; text-decoration:none;">Take a Bite Out of Cancer</a>
     </p>
     </div>
 </div>

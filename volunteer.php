@@ -197,7 +197,6 @@ if (!empty($_POST))
         <link rel= "stylesheet" href= "css\style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
         <script src="js/headerandfooter.js"></script>
-
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
     </head>
@@ -215,8 +214,8 @@ if (!empty($_POST))
                 echo '<label class="success message">'.$success.'</label>';
             }
         ?>
-            <h1>Volunteer Opportunities</h1>
-            <h2>Volunteer at the Center</h2>
+            <h1 style= "color:#008998;">Volunteer Opportunities</h1>
+            <h2 style= "color:#008998;">Volunteer at the Center</h2>
             <p>The Center relies on the skills and talents of our volunteers in order to maintain
                 our quality programs and services. We welcome volunteers to assist with a wide
                 range of activities. The following volunteer opportunities include:
@@ -245,7 +244,7 @@ if (!empty($_POST))
         </div>
         <br/>
         <div class = "center-text">
-            <h2>Volunteer at Special Events</h2>
+            <h2 style= "color:#008998;">Volunteer at Special Events</h2>
             <p>The Center has four signature special events - the Gala, the Golf Outing, and two
                 Walks of Hope. If you are looking for a meaningful way to support The Center,
                 please consider these volunteer opportunities:</p>
@@ -269,7 +268,7 @@ if (!empty($_POST))
         </div>
         <br/>
         <div class = "center-text">
-            <h2>Join Our Ancillary Boards</h2>
+            <h2 style= "color:#008998;">Join Our Ancillary Boards</h2>
             <p>The Center benefits from the efforts of numerous ancillary boards. These board
                 members act as ambassadors for The Center as well as organize various fundraising
                 events throughout the year.
@@ -294,7 +293,7 @@ if (!empty($_POST))
         </div>
         <br/>        
         <div class = "center-text">
-            <h2>Volunteer at the Village Door Consignment Shop</h2>
+            <h2 style= "color:#008998;">Volunteer at the Village Door Consignment Shop</h2>
             <p>The Village Door provides a unique shopping experience for those in search
                 of fine furniture, antiques, collectibles, and much more. All proceeds from
                 the purchases at The Village Door benefit The Center. New volunteers are welcome
@@ -318,7 +317,7 @@ if (!empty($_POST))
 
         <form action="" id="volunteer-reg" class="register" method="post">
             <div class = "volunteer-form-section-1">
-                <h1>Volunteer Registration</h1>
+                <h1 style="color:#1e5477;">Volunteer Registration</h1>
                 <fieldset>
                     <legend>Areas of Interest</legend>
                     <ul class = "interest-checkboxes">
@@ -416,7 +415,7 @@ if (!empty($_POST))
 
             <div class = "center-text">
                 <div class = "volunteer-form-section-2">
-                    <p>Fields with a * are required</p>
+                    <p style= "color:#FF0000;">Fields with a * are required</p>
                     <fieldset>
                         <legend>Personal Information</legend>
                         <div class="input-row">
@@ -467,7 +466,7 @@ if (!empty($_POST))
                 </div>
 
                 <div class = "volunteer-form-section-2">
-                    <p>Fields with a * are required</p>
+                    <p style= "color:#FF0000;">Fields with a * are required</p>
                     <fieldset>
                         <legend>Employment</legend>
                         <div class="input-row">
@@ -506,7 +505,7 @@ if (!empty($_POST))
                 </div>
             
                 <div class = "volunteer-form-section-2">
-                    <p>Fields with a * are required</p>
+                    <p style= "color:#FF0000;">Fields with a * are required</p>
                     <fieldset>
                         <legend>Education</legend>
                         <div class="input-row">
@@ -528,7 +527,7 @@ if (!empty($_POST))
 
 
                 <div class = "volunteer-form-section-2">
-                    <p>Fields with a * are required</p>
+                    <p style= "color:#FF0000;">Fields with a * are required</p>
                     <fieldset>
                         <legend>Application Questions</legend>
                         <div class="input-row">
@@ -558,7 +557,7 @@ if (!empty($_POST))
                 </div>
 
                 <div class = "volunteer-form-section-2">
-                    <p>Fields with a * are required</p>
+                    <p style= "color:#FF0000;">Fields with a * are required</p>
                     <div class = "volunteer-text">
                         <h1>Adult Volunteer Applicant Statement</h1>
                         <p>I am interested in serving as a Cancer Support Center Volunteer. I am prepared to receive the required training and devote 

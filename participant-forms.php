@@ -99,7 +99,6 @@ if (!empty($_POST))
         <link rel= "stylesheet" href= "css\style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
         <script src="js/headerandfooter.js"></script>
-
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
     
@@ -117,7 +116,7 @@ if (!empty($_POST))
                 echo '<label class="success message">'.$success.'</label>';
             }
         ?>
-        <h1>Participant Forms</h1>
+        <h1 style= "color:#008998;">Participant Forms</h1>
         <form action="" method="post" id="participant-form">
             <div class = "participant-form-section-1">
                 
