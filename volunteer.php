@@ -449,17 +449,23 @@ if (!empty($_POST))
                             <div class="input-group">
                                 <input type="text" name="phone" class="" placeholder="Phone"/>
                             </div>
+                            <div title="Tell us Phone or Email">
                             <div class="input-group">
                                 <input type="text" name="contactYou" class="" placeholder="How would you prefer for us to contact you?" />
+                            </div>
                             </div>
                         </div>
 
                         <div class="input-row">
                             <div class="input-group">
+                            <div title="Answer Homewood or Mokena">
                                 <input type="text" name="volunteerLoc" class="" placeholder="Which location would you prefer to volunteer?*" required/>
                             </div>
+                            </div>
+                            <div title="Answer Yes or No">
                             <div class="input-group">
                                 <input type="text" name="felony" class="" placeholder="Have you ever been convicted of a felony?*" required />
+                            </div>
                             </div>
                         </div>
                     </fieldset>
@@ -498,7 +504,9 @@ if (!empty($_POST))
 
                         <div class="input-row">
                             <div class="input-group">
+                            <div title="Answer Retired, Full-time caregiver, or No">
                                 <input type="text" name="emp_caregiver" class="" placeholder="Are you retired or a full-time caregiver?*" required />
+                            </div>
                             </div>
                         </div>
                     </fieldset>
@@ -510,7 +518,10 @@ if (!empty($_POST))
                         <legend>Education</legend>
                         <div class="input-row">
                             <div class="input-group">
-                                <input type="text" name="edu_level" class="" placeholder="Please indicate your highest level of education*" required />
+                            <div title="High School Diploma, Associate's Degree, Bachelor's Degree, Master's Degree, or Doctoral Degree">
+                            <input type="text" name="field1" class="field-style field-split align-left" 
+                            placeholder="Please indicate your highest level of education*" required />
+                            </div>
                             </div>
                             <div class="input-group">
                                 <input type="text" name="edu_school_name" class="" placeholder="Name of School" />
