@@ -1,6 +1,5 @@
 <?php
-$reciverEmail = ''; // My email was here
-
+$reciverEmail = ''; // Your email goes here
 if (!empty($_POST))
 {
     $error = '';
@@ -97,6 +96,7 @@ if (!empty($_POST))
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Participant Forms</title>
         <link rel= "stylesheet" href= "css\style.css">
+        <link rel="stylesheet" href="css\w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
         <script src="js/headerandfooter.js"></script>
         <script src="js/jquery-3.5.1.min.js"></script>
@@ -118,9 +118,8 @@ if (!empty($_POST))
         ?>
         <h1 style= "color:#008998;">Participant Forms</h1>
         <form action="" method="post" id="participant-form">
-            <div class = "participant-form-section-1">
-                
-                <p>Fields with a * are required</p>
+            <div class = "participant-form-section-1">                
+            <p style= "color:#FF0000;">Fields with a * are required</p>
                 <fieldset>
                     <legend>Personal Information</legend>
                     <div class="Row">
@@ -170,7 +169,7 @@ if (!empty($_POST))
                     <ul class = "participant-checkboxes">
                         <li>
                             <input type="checkbox" id="checkbox1" name="Services" value="Use of Services" required />
-                            <label for="checkbox1">Use of Services* – Cancer Support Center programs are offered at no charge to any participant.<br/>
+                            <label for="checkbox1">Use of Services* – Cancer Support Center programs are offered at no charge to any participant.
                                 Our intent is to provide a safe environment and programming that is beneficial to those involved. We expect
                                 participants to discuss concerns with appropriate staff and to hold all associated with the Center
                                 harmless in their work to provide programming along professional and ethical guidelines. The Cancer Support Center

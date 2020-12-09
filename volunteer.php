@@ -1,5 +1,5 @@
 <?php
-$reciverEmail = ''; // My email was here
+$reciverEmail = ''; // Your email goes here
 
 if (!empty($_POST))
 {
@@ -195,6 +195,7 @@ if (!empty($_POST))
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Volunteer Opportunities</title>
         <link rel= "stylesheet" href= "css\style.css">
+        <link rel="stylesheet" href="css\w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
         <script src="js/headerandfooter.js"></script>
         <script src="js/jquery-3.5.1.min.js"></script>
@@ -233,8 +234,8 @@ if (!empty($_POST))
             <li>Painter/Carpenter</li>
         </ul>
         <div class = "volunteer-images">
-            <img src="css/table_volunteers.jpeg" alt="volunteers at table">
-            <img src="css/phone_greeter.jpeg" alt="receptionist on phone">
+            <img src="css/volunteer-imgs/table_volunteers.jpeg" alt="volunteers at table">
+            <img src="css/volunteer-imgs/phone_greeter.jpeg" alt="receptionist on phone">
         </div>
         <br/>
         <div class = "center-text">
@@ -257,8 +258,8 @@ if (!empty($_POST))
             <li>Event day volunteer</li>
         </ul>
         <div class = "volunteer-images">
-            <img src="css/kids_and_elder.jpeg" alt="elders and children">
-            <img src="css/two_lady_volunteers.jpeg" alt="two lady volunteers">
+        <img src="css/volunteer-imgs/kids_and_elder.jpeg" alt="elders and children">
+        <img src="css/volunteer-imgs/two_lady_volunteers.jpeg" alt="two lady volunteers">
         </div>
         <div class = "center-text">
             <p>To learn more about special events volunteer opportunities, contact
@@ -282,8 +283,8 @@ if (!empty($_POST))
             <li>Junior Board</li>
         </ul>
         <div class = "volunteer-images">
-            <img src="css/halloween_volunteers.jpeg" alt="halloween volunteers">
-            <img src="css/springwalk_volunteers.jpeg" alt="Spring walk volunteers">
+        <img src="css/volunteer-imgs/halloween_volunteers.jpeg" alt="halloween volunteers">
+        <img src="css/volunteer-imgs/springwalk_volunteers.jpeg" alt="Spring walk volunteers">
         </div>
         <br/>
         <div class = "center-text">
@@ -301,8 +302,8 @@ if (!empty($_POST))
             </p>
         </div>
         <div class = "volunteer-images">
-            <img src="css/consignment_shop.jpeg" alt="Village Door Consignment Shop">
-            <img src="css/volunteer_appreciation_group.jpeg" alt="Volunteers at appreciation event">
+        <img src="css/volunteer-imgs/consignment_shop.jpeg" alt="Village Door Consignment Shop">
+        <img src="css/volunteer-imgs/volunteer_appreciation_group.jpeg" alt="Volunteers at appreciation event">
         </div>
         <br/>
         <div class = "center-text">
@@ -458,14 +459,19 @@ if (!empty($_POST))
 
                         <div class="input-row">
                             <div class="input-group">
-                            <div title="Answer Homewood or Mokena">
+                                <input type="text" name="phone" class="" placeholder="Phone"/>
+                            </div>
+                            <div class="input-group" title ="Tell us Phone or Email">
+                                <input type="text" name="contactYou" class="" placeholder="How would you prefer for us to contact you?" />
+                            </div>                           
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-group" title="Answer Homewood or Mokena">
                                 <input type="text" name="volunteerLoc" class="" placeholder="Which location would you prefer to volunteer?*" required/>
                             </div>
-                            </div>
-                            <div title="Answer Yes or No">
-                            <div class="input-group">
+                            <div class="input-group" title="Answer Yes or No">
                                 <input type="text" name="felony" class="" placeholder="Have you ever been convicted of a felony?*" required />
-                            </div>
                             </div>
                         </div>
                     </fieldset>
@@ -503,10 +509,8 @@ if (!empty($_POST))
                         </div>
 
                         <div class="input-row">
-                            <div class="input-group">
-                            <div title="Answer Retired, Full-time caregiver, or No">
+                            <div class="input-group" title="Answer Retired, Full-time caregiver, or No">
                                 <input type="text" name="emp_caregiver" class="" placeholder="Are you retired or a full-time caregiver?*" required />
-                            </div>
                             </div>
                         </div>
                     </fieldset>
@@ -517,12 +521,11 @@ if (!empty($_POST))
                     <fieldset>
                         <legend>Education</legend>
                         <div class="input-row">
-                            <div class="input-group">
-                            <div title="High School Diploma, Associate's Degree, Bachelor's Degree, Master's Degree, or Doctoral Degree">
+                            <div class="input-group" title="High School Diploma, Associate's Degree, Bachelor's Degree, Master's Degree, or Doctoral Degree">
                             <input type="text" name="field1" class="field-style field-split align-left" 
                             placeholder="Please indicate your highest level of education*" required />
                             </div>
-                            </div>
+
                             <div class="input-group">
                                 <input type="text" name="edu_school_name" class="" placeholder="Name of School" />
                             </div>
@@ -580,7 +583,7 @@ if (!empty($_POST))
                     <fieldset>
                         <div class="input-row">
                             <div class="input-group">
-                                <input type="text" name="app_sign" class="" placeholder="Volunteer Applicant Signature*"  required/>
+                                <input type="text" name="app_sign" class="" placeholder="Volunteer Applicant Signature*" required/>
                             </div>
                             <div class="input-group">
                                 <input type="text" name="app_sign_parent" class="" placeholder="Parent/Guardian's Signature if under 18 years old" />

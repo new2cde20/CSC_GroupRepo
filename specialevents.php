@@ -10,7 +10,7 @@
             $message = $_POST['message'];
             $antiSpam = $_POST['human'];
         
-            $to =""; // My email was here
+            $to =""; // Your email goes here
             $body = '';
         
             $body .="From: ".$userName. "\r\n";
@@ -35,6 +35,8 @@
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <title>Contact Us</title>
         <link rel= "stylesheet" href= "css\style.css">
+        <link rel= "stylesheet" href= "css\bourbon\restyle.css">
+        <link rel="stylesheet" href="css\w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass&display=swap">
         <script src="js/headerandfooter.js"></script>
     </head>

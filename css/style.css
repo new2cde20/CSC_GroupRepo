@@ -214,7 +214,7 @@
 /* End of Diana's CSS */
 
 /* Start of Janeise's CSS */
-/*CSS for logo at top left of page*/
+/*CSS for logo at top left of page and dropdown menu titles and donate button at top right of page */
 .header-logo {
 	display: inline-block;
 	vertical-align: middle;
@@ -225,7 +225,7 @@
 	height: auto;
 	width: 100%;
   }
-/*End of CSS for logo at top left of page*/
+/*End of CSS for logo at top left of page and dropdown menu titles and donate button at top right of page */
 
 /* CSS for lady on info and resources HTML page */
 .book-lady {
@@ -250,23 +250,22 @@
 	border: 5px solid #555; 
 }
 
-/*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
-.button-head {
-	display: inline-block;
-	vertical-align: middle;
-}
+/* CSS for all buttons */
 
+/* CSS for top right donate button */
 .donate-button {
   position: absolute;
   top: 0;
   right: 0;
 }
 
+/*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
 .donate-button, .donate-button-2, .button {
   background-color: #269CE9;
   border-color: #269CE9;
 }
 
+/*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
 .donate-button, .donate-button-2, .button {
   color: #f2f2f2
 }
@@ -284,11 +283,11 @@
   text-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
-.donate-button, .donate-button-2, .button:hover{
+.donate-button:hover, .donate-button-2:hover, .button:hover{
   background-color: #70B9E8;
 }
 
-.donate-button, .donate-button-2, .button:active{
+.donate-button:active, .donate-button-2:active, .button:active{
   background: #269CE9;
 }
 
@@ -298,13 +297,12 @@
   height: 50px;
   padding: 4px 1.5em 4px 2em;
 }
-/* End of CSS for top right donate button*/
+/* End of CSS for buttons */
 
 .navbar {
 	overflow: hidden;
-	/* background-color: #001A4B; */
 	border-bottom: 1px solid #333333;
-	padding: 7px;
+	padding: 12px; /* this is the code for the border underneath the logo, dropdown titles, and donate button */
 	font-family: Arial, Helvetica, sans-serif;
 	display: inline-block;
 	vertical-align: middle;
@@ -491,7 +489,7 @@ p, strong, b, i, u, li{
   text-align: center;
 }
 
-/* Centers images on the main webpage */
+/* Centers images on the main webpage (center-imgs) */
 .center-imgs {
   display: block;
   margin-left: auto;
@@ -507,6 +505,15 @@ p, strong, b, i, u, li{
 	height: 300px;
 	transform: rotate(25deg);
   }
+
+/* Centers nutrition popup flyer on nutrition-popup-recipes.html page */
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 375px;
+	height: 400px;
+}
 
 /* CSS for location information */
   /* Wraps location information in a box*/
