@@ -146,6 +146,36 @@
 		border-right:3px solid #1e5477;
 		float: left;
 	}
+	#slideShowContainer {
+		margin-right: auto;
+		margin-left: auto;
+		width: 70%;
+		height: 400px;
+		margin-top: 30px;
+		margin-bottom: 200px;;
+		float: left;
+		}
+		
+		
+		#YouTubeSlide {
+		margin-right: auto;
+		margin-left: auto;
+		width: 30%;
+		height: 400px;
+		margin-top: 30px;
+		margin-bottom: 200px;
+		float: left;
+	}
+	.youtubeVideoSlideshow{
+		width: 344px;
+		height: 340px;
+		float: left;
+	
+	  }
+
+	
+
+
 	/*Zoom Programming Page*/
 	.zoomBodyLinks1{
 		margin-right: auto;
@@ -449,6 +479,7 @@ p, strong, b, i, u, li{
 	padding: 10px;
 	display: block;
   }
+
 
 /* CSS for footer */
 .footer {
