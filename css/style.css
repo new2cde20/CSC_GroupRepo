@@ -1,1170 +1,1375 @@
 /** This is the CSS page for our website. **/
 
+
 /* Start of Diana's CSS */
+
+
 /*Resource Info*/
+
 .titlePage {
-	text-align:center;
-	font-size: 30px;
-	margin-left: 20px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: #009999;
-  }
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #009999;
+}
 
-  
-.subHeadings{
-	text-align: left;
-	font-size: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: #1e5477;
-	margin-left: 40px;
-	margin-right: 40px;
+.subHeadings {
+    text-align: left;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1e5477;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
-  }
+.subHeadingsCenter {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1e5477;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
-.subHeadingsCenter{
-	text-align: center;
-	font-size: 30px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: #1e5477;
-	margin-left: 40px;
-	margin-right: 40px;
-
-  }  
-  
 #YouTube-Partner {
-	width: 50%;
-	display: block;
-	align-content: left;
-	padding: 10px;
-  
-  }
-  
-#boldMessage{
-	margin-left: 40px;
-	margin-right: 40px;
-	font-family: bold;
-	text-align: center;
-	font-size: 20px;
-  }
+    width: 50%;
+    display: block;
+    align-content: left;
+    padding: 10px;
+}
 
+#boldMessage {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: bold;
+    text-align: center;
+    font-size: 20px;
+}
 
+#mainp {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
 
-#mainp-Justify{
-	margin-left: 40px;
-	margin-right: 40px;
-	font-size: 20px;
-	text-align: justify;
-  } 
-#specialMessage{
-	color: navy;
-	font-style: italic;
-	text-align: center;
-  }
-  
-#imageFloatRight{
-	float: right;
-	padding-left: 30px;
-	padding-right: 50px;
+#mainp-Justify {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#specialMessage {
+    color: navy;
+    font-style: italic;
+    text-align: center;
+}
+
+#imageFloatRight {
+    float: right;
+    padding-left: 30px;
+    padding-right: 50px;
 }
 
 
-  /*Images of the books*/
-  #library{
-	float: right;
-	padding-left: 80px;
-	padding-right: 20px;
-	margin-bottom: 20px;
-  }
-  .libraryText{
-	  margin-bottom:75px ;
-  }  
-  
-  * {
-	box-sizing: border-box;
-  }
-  
-  .column {
-	float: left;
-	width: 33.33%;
-	padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-	padding: 30px;
-  }
-  .row2::after {
-	content: "";
-	clear: both;
-	display: table;
-	padding: 30px;
-  }
-  #logo {
-	padding-right: 130px;
-	float: right;
-  }
-  
-  #paragraphHeading {
-	padding-top: 60px;
-  }
-  
-  .rowBooks::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  
-  .centerImages {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-  }
+/*Images of the books*/
+
+#library {
+    float: right;
+    padding-left: 80px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.libraryText {
+    margin-bottom: 75px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
 
 
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 30px;
+}
+
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 30px;
+}
+
+#logo {
+    padding-right: 130px;
+    float: right;
+}
+
+#paragraphHeading {
+    padding-top: 60px;
+}
+
+.rowBooks::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.centerImages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
 .columnVideos {
-		float: left;
-		width: 25%;
-	  }
-	  
-	  /* Clear floats after image containers */
-	.rowVideos::after {
-		content: "";
-		clear: both;
-		display: table;
-	  }
-	.youtubeVideos{
-		width: 100%;
-		height: 300px;
-		float: left;
-	  }
-	
-	  .youtube-videos{
-		width: 100%;
-		height: 300px;
-		float: left;
-	  }
-	  .column-Videos {
-		float: left;
-		width: 45%;
-	  }  
+    float: left;
+    width: 25%;
+}
 
 
+/* Clear floats after image containers */
+
+.rowVideos::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.youtubeVideos {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.youtube-videos {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.column-Videos {
+    float: left;
+    width: 45%;
+}
 
 
 /*Google map*/
-  .map{
-	width: 640px;
-	height: 480px;
 
-  }
- 
-  .textAroundMap{
-	  font-size: 11px;
-	  text-align: center;
-	  margin-right:35px;
-	  margin-left:25px;
+.map {
+    width: 640px;
+    height: 480px;
+}
 
-  }
+.textAroundMap {
+    font-size: 11px;
+    text-align: center;
+    margin-right: 35px;
+    margin-left: 25px;
+}
 
-  /*Containers for the text and map in the contact us page*/
-  #middle {
+
+/*Containers for the text and map in the contact us page*/
+
+#middle {
     margin-right: auto;
     margin-left: auto;
     width: 70%;
     height: 400px;
-	margin-top: 55px;
-	margin-bottom: 200px;;
-	float: left;
-	}
-	
-	#text {
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom: 30px;
-		margin-top: 50px;
-		margin-left:40px;
-		width: 26%;
-		height: 500px;
-		border-right:3px solid #1e5477;
-		float: left;
-	}
-	#slideShowContainer {
-		margin-right: auto;
-		margin-left: auto;
-		width: 70%;
-		height: 400px;
-		margin-top: 30px;
-		margin-bottom: 200px;;
-		float: left;
-		}
-		
-		
-	#YouTubeSlide {
-		margin-right: auto;
-		margin-left: auto;
-		width: 30%;
-		height: 400px;
-		margin-top: 30px;
-		margin-bottom: 200px;
-		float: left;
-		border-left:3px solid #1e5477;
-	}
-	.youtubeVideoSlideshow{
-		width: 344px;
-		height: 335px;
-		float: left;
-	  }
-	
-	#youTubeTitle{
-		text-align: center;
-		font-size: 20px;
-		font-family: bold;
-		margin-top: -14px;
-		margin-bottom: 0px;
-	  }
-	
+    margin-top: 55px;
+    margin-bottom: 200px;
+    ;
+    float: left;
+}
 
-	/*Zoom Programming Page*/
-	.zoomBodyLinks1{
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		padding-left: 50px;
-		float: left;
-		width: 32%;
-		height: 800px;
-	}
-	.zoomBodyLinks2{
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		padding-left: 50px;
-		float: left;
-		width: 32%;
-		height: 800px;
-	
-	}
-	.zoomBodyLinks3{
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		padding-left: 50px;
-		float: left;		
-		width: 32%;
-		height: 800px;
-				
-	}
-	#imageFloatsRight{
-		float: right;
-		margin-top: -10px;
-		margin-left: 50px;
-		margin-right: 70px;
+#text {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 26%;
+    height: 500px;
+    border-right: 3px solid #1e5477;
+    float: left;
+}
 
-	}
+#slideShowContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    ;
+    float: left;
+}
 
-	#textAroundImage{
-		text-align: justify;
-		margin-left: 70px;
-	}
+#YouTubeSlide {
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    float: left;
+    border-left: 3px solid #1e5477;
+}
+
+.youtubeVideoSlideshow {
+    width: 344px;
+    height: 335px;
+    float: left;
+}
+
+#youTubeTitle {
+    text-align: center;
+    font-size: 20px;
+    font-family: bold;
+    margin-top: -14px;
+    margin-bottom: 0px;
+}
 
 
-	#tuesdayGoalsImage{
-		width: 90%;
-		padding-left:10%;
-	}
-	#imageAnnouncement{
-		width: 90%;
-		padding-left:10%;
-	}
-	
-	
-	.section1{
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		float: left;
-		width: 32%;
-		height: 700px;
-		
-	}
-	.section2{
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		float: left;
-		width: 32%;
-		height: 700px;
-	
+/*Zoom Programming Page*/
 
+.zoomBodyLinks1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    float: left;
+    width: 32%;
+    height: 800px;
+}
 
-	
-	}
-	.section3{
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		float: left;		
-		width: 32%;
-		height: 700px;		
-	}
-	#Center{
-		margin: auto;
-		width: 60%;
-		border-right: 5px solid #1e5477;
-		border-left: 5px solid #1e5477;
+.zoomBodyLinks2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    float: left;
+    width: 32%;
+    height: 800px;
+}
 
-	}
-	#centerText{
-		text-align: center;
-	}
+.zoomBodyLinks3 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    float: left;
+    width: 32%;
+    height: 800px;
+}
 
-	
+#imageFloatsRight {
+    float: right;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
 
-	
+#textAroundImage {
+    text-align: justify;
+    margin-left: 70px;
+}
+
+#tuesdayGoalsImage {
+    width: 90%;
+    padding-left: 10%;
+}
+
+#imageAnnouncement {
+    width: 90%;
+    padding-left: 10%;
+}
+
+.section1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    float: left;
+    width: 32%;
+    height: 700px;
+}
+
+.section2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    float: left;
+    width: 32%;
+    height: 700px;
+}
+
+.section3 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    float: left;
+    width: 32%;
+    height: 700px;
+}
+
+#Center {
+    margin: auto;
+    width: 60%;
+    border-right: 5px solid #1e5477;
+    border-left: 5px solid #1e5477;
+}
+
+#centerText {
+    text-align: center;
+}
+
 
 /* End of Diana's CSS */
 
+
 /* Start of Janeise's CSS */
+
+
 /*CSS for logo at top left of page and dropdown menu titles and donate button at top right of page */
+
 .header-logo {
-	display: inline-block;
-	vertical-align: middle;
-	width: 9%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 9%;
 }
 
 .header-logo img {
-	height: auto;
-	width: 100%;
-  }
+    height: auto;
+    width: 100%;
+}
+
+
 /*End of CSS for logo at top left of page and dropdown menu titles and donate button at top right of page */
 
+
 /* CSS for lady on info and resources HTML page */
+
 .book-lady {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* CSS for ladies on body image research HTML page and Quality of Life image on programs and activities page */
-.float-right-imgs, .float-right-imgs-2{
-	float: right;
-	margin-right: 200px;
+
+.float-right-imgs,
+.float-right-imgs-2 {
+    float: right;
+    margin-right: 200px;
 }
+
 
 /* Puts a border around ladies on body-image-research.html page */
+
 .float-right-imgs {
-	border: 4px solid #555; 
+    border: 4px solid #555;
 }
 
+
 /* Puts a border around Quality of Life image */
+
 .float-right-imgs-2 {
-	border: 5px solid #555; 
+    border: 5px solid #555;
 }
+
 
 /* CSS for all buttons */
 
+
 /* CSS for top right donate button */
+
 .donate-button {
-  position: absolute;
-  top: 0;
-  right: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+
 
 /*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
-.donate-button, .donate-button-2, .button {
-  background-color: #269CE9;
-  border-color: #269CE9;
+
+.donate-button,
+.donate-button-2,
+.button {
+    background-color: #269CE9;
+    border-color: #269CE9;
 }
+
 
 /*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
-.donate-button, .donate-button-2, .button {
-  color: #f2f2f2
+
+.donate-button,
+.donate-button-2,
+.button {
+    color: #f2f2f2
 }
 
-.donate-button, .donate-button-2, .button{
-  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
-  user-select: none;
+.donate-button,
+.donate-button-2,
+.button {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+    user-select: none;
 }
 
-.donate-button, .donate-button-2, .button{
-  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.3)), rgba(255,255,255,0);
+.donate-button,
+.donate-button-2,
+.button {
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .3)), rgba(255, 255, 255, 0);
 }
 
-.donate-button, .donate-button-2, .button {
-  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+.donate-button,
+.donate-button-2,
+.button {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.donate-button:hover, .donate-button-2:hover, .button:hover{
-  background-color: #70B9E8;
+.donate-button:hover,
+.donate-button-2:hover,
+.button:hover {
+    background-color: #70B9E8;
 }
 
-.donate-button:active, .donate-button-2:active, .button:active{
-  background: #269CE9;
+.donate-button:active,
+.donate-button-2:active,
+.button:active {
+    background: #269CE9;
 }
 
-.donate-button, .donate-button-2, .button{
-  border-radius: 6px;
-  margin: 3px 4px 5px;
-  height: 50px;
-  padding: 4px 1.5em 4px 2em;
+.donate-button,
+.donate-button-2,
+.button {
+    border-radius: 6px;
+    margin: 3px 4px 5px;
+    height: 50px;
+    padding: 4px 1.5em 4px 2em;
 }
+
+
 /* End of CSS for buttons */
 
 .navbar {
-	overflow: hidden;
-	border-bottom: 1px solid #333333;
-	padding: 12px; /* this is the code for the border underneath the logo, dropdown titles, and donate button */
-	font-family: Arial, Helvetica, sans-serif;
-	display: inline-block;
-	vertical-align: middle;
-	width: 90%;
-	}
+    overflow: hidden;
+    border-bottom: 1px solid #333333;
+    padding: 12px;
+    /* this is the code for the border underneath the logo, dropdown titles, and donate button */
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+}
+
 
 /* Navigation links */
+
 .navbar a {
-	float: left;
-	font-size: 16px;
-	color:#001A4B;
-	text-align: center;
-	padding: 5px;
-	text-decoration: none;
-  }
-  
-  .dropdown {
-	float: left;
-	overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-	cursor: pointer;
-	font-size: 16px;  
-	border: none;
-	outline: none;
-	color: white;
-	/* padding: 10px 15px; Moves dropdown content over - so I can make it more centered */
-	background-color: inherit;
-	font-family: "Montserrat";
-	margin: 0;
-  }
+    float: left;
+    font-size: 16px;
+    color: #001A4B;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    /* padding: 10px 15px; Moves dropdown content over - so I can make it more centered */
+    background-color: inherit;
+    font-family: "Montserrat";
+    margin: 0;
+}
 
 figcaption {
-	font-family: "Montserrat";
-	font-size: 18px;
-  }
-
-h1, h2, h3, h4 {
-	  font-family: "Overpass";
-  }
-
-p, strong, b, i, u, li{
-	  font-family: "Montserrat";
+    font-family: "Montserrat";
+    font-size: 18px;
 }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-	background-color: #70B9E8;
-  }
-  
-  .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
-	float: none;
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-	background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-	  display: block;
-	}
-  
-  /* CSS for automatic slideshow on main webpage */
-  /* This is the automatic slideshow container */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Overpass";
+}
+
+p,
+strong,
+b,
+i,
+u,
+li {
+    font-family: "Montserrat";
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #70B9E8;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* CSS for automatic slideshow on main webpage */
+
+
+/* This is the automatic slideshow container */
+
 .slideshow {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
-  }
-  
-  /* Hide images by default */
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide images by default */
+
 .mySlides {
-	display: none;
-	width: 100%;
-	height: auto;
-  }
-  
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
 .img {
-	vertical-align: middle;
-  }
-  
-  /* Fading animation */
-  .fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 5s;
-	animation-name: fade;
-	animation-duration: 5s;
-  }
-  
-  @-webkit-keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-  }
-  
-  @keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-  }
-  /* End of CSS for automatic slideshow */
-
-  /* CSS for clickable slideshows on family-and-children.html and special-events.html webpages */
-.slider{
-	margin:50px auto;
-	width:50%;
+    vertical-align: middle;
 }
- 
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* End of CSS for automatic slideshow */
+
+
+/* CSS for clickable slideshows on family-and-children.html and special-events.html webpages */
+
+.slider {
+    margin: 50px auto;
+    width: 50%;
+}
+
 .img-box img {
-	width:85%;
+    width: 85%;
 }
 
-.slider-btn{
-	border:none;
-	outline:none;
-	background:#888;
-	padding:10px 30px;
-	font-size: 20px;
-	color:#ddd;
-	cursor: pointer;
-	margin:10px auto;			 
+.slider-btn {
+    border: none;
+    outline: none;
+    background: #888;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    margin: 10px auto;
 }
 
-.slider-btn:hover{
-	background: #111;
+.slider-btn:hover {
+    background: #111;
 }
+
+
 /* End of CSS for clickable slideshows */
-  
-  iframe {
-	margin: auto;
-	width: 40%;
-	padding: 10px;
-	display: block;
-  }
+
+iframe {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    display: block;
+}
 
 
 /* CSS for footer */
+
 .footer {
-	display: flex;
-	flex-direction: column;
-	box-shadow: 0 50vh 0 50vh #999999;
-	min-height: 100vh;
-	background-color: #999999;
-	color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 50vh 0 50vh #999999;
+    min-height: 100vh;
+    background-color: #999999;
+    color: white;
 }
 
+
 /* CSS for container that holds icons and text within footer */
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-	justify-content: flex-end;
-	background-color: transparent;
+    justify-content: flex-end;
+    background-color: transparent;
     width: auto;
     margin: 10px;
 }
 
+
 /* Moves copyright text to the bottom of the left main page */
+
 .footer-text {
-	margin-right: auto;
+    margin-right: auto;
 }
 
+
 /*CSS for grid container within footer */
+
 .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-gap: 10px;
-	padding: 10px;
-  }
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
 
 /* Centers all text that should be centered on HTML pages.
 	Also centers volunteer images on Volunteer HTML page. */
-.center-text, .volunteer-images {
-  text-align: center;
+
+.center-text,
+.volunteer-images {
+    text-align: center;
 }
+
 
 /* Centers images on the main webpage (center-imgs) */
+
 .center-imgs {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 275px;
-  height: 225px;
-  transition: width 2s, height 2s, transform 2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    height: 225px;
+    transition: width 2s, height 2s, transform 2s;
 }
+
 
 /* Makes images on the main webpage rotate when you hover over them */
+
 .center-imgs:hover {
-	width: 300px;
-	height: 300px;
-	transform: rotate(25deg);
-  }
+    width: 300px;
+    height: 300px;
+    transform: rotate(25deg);
+}
+
 
 /* Centers nutrition popup flyer on nutrition-popup-recipes.html page */
+
 .center-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 375px;
-	height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 400px;
 }
+
 
 /* CSS for location information */
-  /* Wraps location information in a box*/
-  * {
-	box-sizing: border-box;
-  }
 
-.body > .leftFooter {
-  float: left;
-  width: 75%;
+
+/* Wraps location information in a box*/
+
+* {
+    box-sizing: border-box;
 }
 
-.body > .location1 > .location2 {
-  box-sizing: border-box;
+.body>.leftFooter {
+    float: left;
+    width: 75%;
+}
+
+.body>.location1>.location2 {
+    box-sizing: border-box;
 }
 
 .location1 {
-  float: left;
-  margin-bottom: 10px;
-  padding-left: 100px;
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 100px;
 }
 
 .left {
-  width: 50%;
+    width: 50%;
 }
 
 .location2 {
-  float: right;
-  margin-bottom: 10px;
-  padding-left: 75px;
+    float: right;
+    margin-bottom: 10px;
+    padding-left: 75px;
 }
 
 .right {
-  width: 50%;
+    width: 50%;
 }
 
 .location-imgs {
-  margin: 10px auto 20px;
-  display: block;
+    margin: 10px auto 20px;
+    display: block;
 }
 
-.row-1 > .column-1 {
-  box-sizing: border-box;
+.row-1>.column-1 {
+    box-sizing: border-box;
 }
 
-.row-2 > .column-2 {
-  box-sizing: border-box;
+.row-2>.column-2 {
+    box-sizing: border-box;
 }
+
 
 /* Create two equal columns that floats next to each other */
+
 .column-1 {
-  float: left;
-  width: 25%;
-  padding: 10px;
-  font-family: "Montserrat";
+    float: left;
+    width: 25%;
+    padding: 10px;
+    font-family: "Montserrat";
 }
+
 
 /* Create two equal columns that floats next to each other */
+
 .column-2 {
-  float: left;
-  width: 25%;
-  padding: 10px;
-  font-family: "Montserrat";
+    float: left;
+    width: 25%;
+    padding: 10px;
+    font-family: "Montserrat";
 }
 
+
 /* Clear floats after the columns */
+
 .row-1:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
+
 /* Clear floats after the columns */
+
 .row-2:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .hours-container {
-  background-color: rgb(215, 255, 248);
-  box-shadow: 0 50vh 0 50vh #D7FFF8;
+    background-color: rgb(215, 255, 248);
+    box-shadow: 0 50vh 0 50vh #D7FFF8;
 }
+
+
 /* End of CSS for location information on main webpage */
 
+
 /* CSS for all contact us forms */
+
 :root {
-	--font-color:#555;
-	--font-hover-color: green;
-  }
-  
-  .body-info {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:100vh;
-	font-family:"Raleway", sans-serif;
-	background-color:#269CE9;
-	box-shadow: 0 50vh 0 50vh #269CE9;
-  }
-  
-  .container{
-	width:500px;
-	box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
-	padding:2em;
-	background-color:#fff;
-  }
-  
-  .form-group{
-	margin-bottom:1.5em;
-	transition:all .3s;
-  }
-  
-  .form-label{
-	font-size:.75em;
-	color:var(--font-color);
-	display:block;
-	opacity:0;
-	transition: all .3s;
-	transform:translateX(-50px);
-  }
-  
-  .form-control{
-	box-shadow:none;
-	border-radius:0;
-	border-color:#ccc;
-	border-style:none none solid none;
-	width:100%;
-	font-size:1.25em;
-	transition:all .6s;
-  }
-  
-  .form-control::placeholder{
-	color:#aaa;
-  }
-  
-  .form-control:focus{
-	box-shadow:none;
-	border-color:var(--font-hover-color);
-	outline:none;
-  }
-  
-  .form-group:focus-within{
-	transform:scale(1.1,1.1);
-  }
-  
-  .form-control:invalid:focus{
-	border-color:red;
-  }
-  
-  .form-control:valid:focus{
-	border-color:green;
-  }
-  
-  .btn{
-	background: 0 0 #fff;
-	border:1px solid #aaa;
-	border-radius:3px;
-	color:var(--font-color);
-	font-size:1em;
-	padding:10 50px;
-	text-transform:uppercase;
-  }
-  
-  .btn:hover{
-	border-color:var(--font-hover-color);
-	color:var(--font-hover-color);
-  }
-  
-  textarea{
-	resize:none;
-  }
-  
-  .focused > .form-label{
-	opacity:1;
-	transform:translateX(0px);
-  }
-  /* End of CSS for Contact Us form*/
+    --font-color: #555;
+    --font-hover-color: green;
+}
+
+.body-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    background-color: #269CE9;
+    box-shadow: 0 50vh 0 50vh #269CE9;
+}
+
+.container {
+    width: 500px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    padding: 2em;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+    transition: all .3s;
+}
+
+.form-label {
+    font-size: .75em;
+    color: var(--font-color);
+    display: block;
+    opacity: 0;
+    transition: all .3s;
+    transform: translateX(-50px);
+}
+
+.form-control {
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 1.25em;
+    transition: all .6s;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--font-hover-color);
+    outline: none;
+}
+
+.form-group:focus-within {
+    transform: scale(1.1, 1.1);
+}
+
+.form-control:invalid:focus {
+    border-color: red;
+}
+
+.form-control:valid:focus {
+    border-color: green;
+}
+
+.btn {
+    background: 0 0 #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: var(--font-color);
+    font-size: 1em;
+    padding: 10 50px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    border-color: var(--font-hover-color);
+    color: var(--font-hover-color);
+}
+
+textarea {
+    resize: none;
+}
+
+.focused>.form-label {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+/* End of CSS for Contact Us form*/
+
 
 /* CSS for Staff.html page */
 
+
 /* Centers first photo*/
+
 .staff-photos-1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
 /* Centers text underneath first photo*/
+
 .staff-text-1 {
-  text-align: center;
+    text-align: center;
 }
 
 .Row {
     display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-	border-spacing: 10px; /*Optional*/
-	text-align: center;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 10px;
+    /*Optional*/
+    text-align: center;
 }
 
 .Row-2 {
     display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-	border-spacing: 10px; /*Optional*/
-	text-align: center;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 10px;
+    /*Optional*/
+    text-align: center;
 }
 
-.staff-text-2, .staff-text-3 {
-	display: flex;
-	margin: 0 90px;
+.staff-text-2,
+.staff-text-3 {
+    display: flex;
+    margin: 0 90px;
 }
 
-.staff-text-2 div, .staff-text-3 div {
-	display: inline-block;
-	flex-grow: 1;/* flex:1; would make them equal width */
-	/* extra ?*/
-	margin: 0 0.5em;
-	/* border: solid; */
-	text-align:center;
+.staff-text-2 div,
+.staff-text-3 div {
+    display: inline-block;
+    flex-grow: 1;
+    /* flex:1; would make them equal width */
+    /* extra ?*/
+    margin: 0 0.5em;
+    /* border: solid; */
+    text-align: center;
 }
+
+
 /* End of CSS for Staff.html page */
 
-/* CSS for participant form 1 */
-.participant-form-section-1{
-	max-width: 800px;
-	background: #FAFAFA;
-	padding: 50px;
-	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
-	border-radius: 10px;
-	border: 6px solid #305A72;
-}
-.participant-form-section-1 ul{
-	padding:0;
-	margin:0;
-	list-style:none;
-}
-.participant-form-section-1 ul li{
-	display: block;
-	margin-bottom: 10px;
-	min-height: 35px;
-}
-.participant-form-section-1 ul li  .field-style{
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
 
-}.participant-form-section-1 ul li  .field-style:focus{
-	box-shadow: 0 0 5px #B0CFE0;
-	border:1px solid #B0CFE0;
+/* CSS for participant form 1 */
+
+.participant-form-section-1 {
+    max-width: 800px;
+    background: #FAFAFA;
+    padding: 50px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
 }
-.participant-form-section-1 ul li .field-split{
-	width: 49%;
+
+.participant-form-section-1 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.participant-form-section-1 ul li .field-full{
-	width: 100%;
+
+.participant-form-section-1 ul li {
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
 }
-.participant-form-section-1 ul li input.align-left{
-	float:left;
+
+.participant-form-section-1 ul li .field-style {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
-.participant-form-section-1 ul li input.align-right{
-	float:right;
+
+.participant-form-section-1 ul li .field-style:focus {
+    box-shadow: 0 0 5px #B0CFE0;
+    border: 1px solid #B0CFE0;
 }
-.participant-form-section-1 ul li textarea{
-	width: 100%;
-	height: 100px;
+
+.participant-form-section-1 ul li .field-split {
+    width: 49%;
 }
-.participant-form-section-1 ul li input[type="button"], 
+
+.participant-form-section-1 ul li .field-full {
+    width: 100%;
+}
+
+.participant-form-section-1 ul li input.align-left {
+    float: left;
+}
+
+.participant-form-section-1 ul li input.align-right {
+    float: right;
+}
+
+.participant-form-section-1 ul li textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.participant-form-section-1 ul li input[type="button"],
 .participant-form-section-1 ul li input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
-	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
 }
-.participant-form-section-1 ul li input[type="button"]:hover, 
+
+.participant-form-section-1 ul li input[type="button"]:hover,
 .participant-form-section-1 ul li input[type="submit"]:hover {
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
 }
+
+
 /* End of CSS for participant form 1*/
 
+
 /* CSS for checkboxes on participant form 1*/
+
 .participant-checkboxes {
     -webkit-column-count: 1;
     -moz-column-count: 1;
-	column-count: 1;
+    column-count: 1;
 }
+
 
 /* CSS for volunteer registration forms 1 and 2 */
-.volunteer-form-section-1{
-	max-width: 800px;
-	background: #FAFAFA;
-	padding: 30px;
-	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
-	border-radius: 10px;
-	border: 6px solid #305A72;
-}
-.volunteer-form-section-1 ul{
-	padding:0;
-	margin:0;
-	list-style:none;
-}
-.volunteer-form-section-1 ul li{
-	display: block;
-	margin-bottom: 10px;
-	min-height: 35px;
-}
-.volunteer-form-section-1 ul li  .field-style{
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
 
-}.volunteer-form-section-1 ul li  .field-style:focus{
-	box-shadow: 0 0 5px #B0CFE0;
-	border:1px solid #B0CFE0;
+.volunteer-form-section-1 {
+    max-width: 800px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
 }
-.volunteer-form-section-1 ul li .field-split{
-	width: 49%;
+
+.volunteer-form-section-1 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.volunteer-form-section-1 ul li .field-full{
-	width: 100%;
+
+.volunteer-form-section-1 ul li {
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
 }
-.volunteer-form-section-1 ul li input.align-left{
-	float:left;
+
+.volunteer-form-section-1 ul li .field-style {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
-.volunteer-form-section-1 ul li input.align-right{
-	float:right;
+
+.volunteer-form-section-1 ul li .field-style:focus {
+    box-shadow: 0 0 5px #B0CFE0;
+    border: 1px solid #B0CFE0;
 }
-.volunteer-form-section-1 ul li textarea{
-	width: 100%;
-	height: 100px;
+
+.volunteer-form-section-1 ul li .field-split {
+    width: 49%;
 }
-.volunteer-form-section-1 ul li input[type="button"], 
+
+.volunteer-form-section-1 ul li .field-full {
+    width: 100%;
+}
+
+.volunteer-form-section-1 ul li input.align-left {
+    float: left;
+}
+
+.volunteer-form-section-1 ul li input.align-right {
+    float: right;
+}
+
+.volunteer-form-section-1 ul li textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.volunteer-form-section-1 ul li input[type="button"],
 .volunteer-form-section-1 ul li input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
-	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
 }
-.volunteer-form-section-1 ul li input[type="button"]:hover, 
+
+.volunteer-form-section-1 ul li input[type="button"]:hover,
 .volunteer-form-section-1 ul li input[type="submit"]:hover {
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
 }
+
 
 /* CSS for checkboxes on volunteer form 1*/
+
 .interest-checkboxes {
     -webkit-column-count: 4;
     -moz-column-count: 3;
-	column-count: 2;
+    column-count: 2;
 }
 
+
 /*CSS for checkboxes on volunteer form 2 */
+
 .availability-checkboxes {
-	-webkit-column-count: 4;
+    -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 3;
 }
 
-/* CSS for volunteer registration forms 3, 4, 5, 6, and 7 */
-.volunteer-form-section-2{
-	max-width: 800px;
-	background: #FAFAFA;
-	padding: 30px;
-	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
-	border-radius: 10px;
-	border: 6px solid #305A72;
-}
-.volunteer-form-section-2 ul{
-	padding:0;
-	margin:0;
-	list-style:none;
-}
-.volunteer-form-section-2 ul li{
-	display: block;
-	margin-bottom: 10px;
-	min-height: 35px;
-}
-.volunteer-form-section-2 ul li  .field-style{
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
 
-}.volunteer-form-section-2 ul li  .field-style:focus{
-	box-shadow: 0 0 5px #B0CFE0;
-	border:1px solid #B0CFE0;
+/* CSS for volunteer registration forms 3, 4, 5, 6, and 7 */
+
+.volunteer-form-section-2 {
+    max-width: 800px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
 }
-.volunteer-form-section-2 ul li .field-split{
-	width: 49%;
+
+.volunteer-form-section-2 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.volunteer-form-section-2 ul li .field-full{
-	width: 100%;
+
+.volunteer-form-section-2 ul li {
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
 }
-.volunteer-form-section-2 ul li input.align-left{
-	float:left;
+
+.volunteer-form-section-2 ul li .field-style {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
-.volunteer-form-section-2 ul li input.align-right{
-	float:right;
+
+.volunteer-form-section-2 ul li .field-style:focus {
+    box-shadow: 0 0 5px #B0CFE0;
+    border: 1px solid #B0CFE0;
 }
-.volunteer-form-section-2 ul li textarea{
-	width: 100%;
-	height: 100px;
+
+.volunteer-form-section-2 ul li .field-split {
+    width: 49%;
 }
-.volunteer-form-section-2 ul li input[type="button"], 
+
+.volunteer-form-section-2 ul li .field-full {
+    width: 100%;
+}
+
+.volunteer-form-section-2 ul li input.align-left {
+    float: left;
+}
+
+.volunteer-form-section-2 ul li input.align-right {
+    float: right;
+}
+
+.volunteer-form-section-2 ul li textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.volunteer-form-section-2 ul li input[type="button"],
 .volunteer-form-section-2 ul li input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
-	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
 }
-.volunteer-form-section-2 ul li input[type="button"]:hover, 
+
+.volunteer-form-section-2 ul li input[type="button"]:hover,
 .volunteer-form-section-2 ul li input[type="submit"]:hover {
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
 }
+
+
 /* End of CSS for volunteer forms */
 
+
 /*Ancillary Boards Table CSS */
-table, td, th {
-	border: 1px solid black;
-  }
-  
-  table {
-	width: 100%;
-	border-collapse: collapse;
-  }
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 
 /**/
+
 .error {
-	color: red;
-	font-size: small;
+    color: red;
+    font-size: small;
 }
 
-.success
-{
-	color: green;
-	font-size: small;
-}
-.input-group
-{
-	display: table-cell;
+.success {
+    color: green;
+    font-size: small;
 }
 
-.input-group input, textarea
-{
-	width: 100%;
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
+.input-group {
+    display: table-cell;
 }
 
-.message{
-	display: block;
-	background: aliceblue;
+.input-group input,
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.message {
+    display: block;
+    background: aliceblue;
     padding: 15px;
 }
 
 .input-row {
     display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-	border-spacing: 5px; /*Optional*/
-	text-align: center;
+    width: 100%;
+    /*Optional*/
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 5px;
+    /*Optional*/
+    text-align: center;
 }
-
 
 .submit {
-	width: 20% !important;
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
-	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
+    width: 20% !important;
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
 }
-.submit:hover{
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
+
+.submit:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+
+.slider-label {
+    text-align: center;
+    font-size: inherit;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+strong {
+    color: #008998;
+    text-decoration: none;
+    transition: color 0.25s;
 }

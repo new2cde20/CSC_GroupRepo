@@ -450,28 +450,29 @@ if (!empty($_POST))
                             <div class="input-group">
                                 <input type="text" name="phone" class="" placeholder="Phone"/>
                             </div>
-                            <div title="Tell us Phone or Email">
-                            <div class="input-group">
-                                <input type="text" name="contactYou" class="" placeholder="How would you prefer for us to contact you?" />
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="input-row">
-                            <div class="input-group">
-                                <input type="text" name="phone" class="" placeholder="Phone"/>
-                            </div>
                             <div class="input-group" title ="Tell us Phone or Email">
-                                <input type="text" name="contactYou" class="" placeholder="How would you prefer for us to contact you?" />
+                                <select name="contactYou">
+                                    <option selected disabled>How would you prefer for us to contact you?</option>
+                                    <option value="Email">Email</option>
+                                    <option value="Phone">Phone</option>
+                                </select>
                             </div>                           
                         </div>
 
                         <div class="input-row">
                             <div class="input-group" title="Answer Homewood or Mokena">
-                                <input type="text" name="volunteerLoc" class="" placeholder="Which location would you prefer to volunteer?*" required/>
+                                <select name="volunteerLoc" required>
+                                    <option selected disabled>Which location would you prefer to volunteer?*</option>
+                                    <option value="HomeWood">HomeWood</option>
+                                    <option value="Mokena">Mokena</option>
+                                </select>
                             </div>
                             <div class="input-group" title="Answer Yes or No">
-                                <input type="text" name="felony" class="" placeholder="Have you ever been convicted of a felony?*" required />
+                                <select name="felony" required>
+                                    <option selected disabled>Have you ever been convicted of a felony?*</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
                             </div>
                         </div>
                     </fieldset>
@@ -510,7 +511,12 @@ if (!empty($_POST))
 
                         <div class="input-row">
                             <div class="input-group" title="Answer Retired, Full-time caregiver, or No">
-                                <input type="text" name="emp_caregiver" class="" placeholder="Are you retired or a full-time caregiver?*" required />
+                                <select name="emp_caregiver" required>
+                                    <option selected disabled>Are you retired or a full-time caregiver?*</option>
+                                    <option value="No">No</option>
+                                    <option value="Retired">Retired</option>
+                                    <option value="or Full-time Caregiver">or Full-time Caregiver</option>
+                                </select>
                             </div>
                         </div>
                     </fieldset>
@@ -522,8 +528,14 @@ if (!empty($_POST))
                         <legend>Education</legend>
                         <div class="input-row">
                             <div class="input-group" title="High School Diploma, Associate's Degree, Bachelor's Degree, Master's Degree, or Doctoral Degree">
-                            <input type="text" name="field1" class="field-style field-split align-left" 
-                            placeholder="Please indicate your highest level of education*" required />
+                                <select name="field1" required>
+                                    <option selected disabled>Please indicate your highest level of education*</option>
+                                    <option value="High School Diploma">High School Diploma</option>
+                                    <option value="Associate's Degree">Associate's Degree</option>
+                                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                                    <option value="Master's Degree">Master's Degree</option>
+                                    <option value="or Doctoral Degree">or Doctoral Degree</option>
+                                </select>
                             </div>
 
                             <div class="input-group">
