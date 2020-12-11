@@ -82,6 +82,8 @@ class Header extends HTMLElement {
         <a href="2020FallUnGala.html" target="_blank">2020 Fall Un-Gala</a>
         <a href="thirdPartyEvents.html" target="_blank">Third Party Community Events</a>
         <a href="takeABiteOutOfCancer.html" target="_blank">Take a Bite Out of Cancer</a>
+        <a href="2020-Trees-Wreath-Garland-sale.html" target="_blank">2020 Trees, Wreath, and Garland Sale</a>
+        <a href="givingThanks.html" target="_blank">#GivingTuesday</a>
         </div>
         </div>
     </div>
