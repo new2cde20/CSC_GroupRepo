@@ -447,7 +447,7 @@ p, strong, b, i, u, li{
   }
   /* End of CSS for automatic slideshow */
 
-  /* CSS for clickable slideshow */
+  /* CSS for clickable slideshows on family-and-children.html and special-events.html webpages */
 .slider{
 	margin:50px auto;
 	width:50%;
@@ -471,7 +471,7 @@ p, strong, b, i, u, li{
 .slider-btn:hover{
 	background: #111;
 }
-/* End of CSS for clickable slideshow */
+/* End of CSS for clickable slideshows */
   
   iframe {
 	margin: auto;
