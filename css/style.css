@@ -736,8 +736,6 @@ iframe {
 
 
 /* CSS for location information */
-
-
 /* Wraps location information in a box*/
 
 * {
@@ -782,13 +780,8 @@ iframe {
     box-sizing: border-box;
 }
 
-.row-2>.column-2 {
-    box-sizing: border-box;
-}
-
 
 /* Create two equal columns that floats next to each other */
-
 .column-1 {
     float: left;
     width: 25%;
@@ -798,7 +791,6 @@ iframe {
 
 
 /* Create two equal columns that floats next to each other */
-
 .column-2 {
     float: left;
     width: 25%;
@@ -808,17 +800,7 @@ iframe {
 
 
 /* Clear floats after the columns */
-
 .row-1:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Clear floats after the columns */
-
-.row-2:after {
     content: "";
     display: table;
     clear: both;
@@ -828,13 +810,10 @@ iframe {
     background-color: rgb(215, 255, 248);
     box-shadow: 0 50vh 0 50vh #D7FFF8;
 }
-
-
 /* End of CSS for location information on main webpage */
 
 
 /* CSS for all contact us forms */
-
 :root {
     --font-color: #555;
     --font-hover-color: green;
@@ -942,9 +921,7 @@ textarea {
     margin-right: auto;
 }
 
-
 /* Centers text underneath first photo*/
-
 .staff-text-1 {
     text-align: center;
 }
@@ -987,13 +964,9 @@ textarea {
     /* border: solid; */
     text-align: center;
 }
-
-
 /* End of CSS for Staff.html page */
 
-
 /* CSS for participant form 1 */
-
 .participant-form-section-1 {
     max-width: 800px;
     background: #FAFAFA;
