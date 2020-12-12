@@ -374,7 +374,7 @@
 .float-right-imgs,
 .float-right-imgs-2 {
     float: right;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 
 
@@ -609,13 +609,9 @@ li {
         opacity: 1
     }
 }
-
-
 /* End of CSS for automatic slideshow */
 
-
 /* CSS for clickable slideshows on family-and-children.html and special-events.html webpages */
-
 .slider {
     margin: 50px auto;
     width: 50%;
@@ -639,10 +635,9 @@ li {
 .slider-btn:hover {
     background: #111;
 }
-
-
 /* End of CSS for clickable slideshows */
 
+/*CSS for iframe for YT video on main webpage*/
 iframe {
     margin: auto;
     width: 40%;
@@ -650,9 +645,18 @@ iframe {
     display: block;
 }
 
+/* CSS for wrapper for several of the HTML pages - makes it so they're not off-screen*/
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    max-width: 960px; /* 20px smaller, to fit the paddings on the sides */
+  
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 /* CSS for footer */
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -661,7 +665,6 @@ iframe {
     background-color: #999999;
     color: white;
 }
-
 
 /* CSS for container that holds icons and text within footer */
 
@@ -673,7 +676,6 @@ iframe {
     width: auto;
     margin: 10px;
 }
-
 
 /* Moves copyright text to the bottom of the left main page */
 
