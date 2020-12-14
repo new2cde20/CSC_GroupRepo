@@ -155,6 +155,22 @@
     float: left;
 }
 
+.youtubeVideos2 {
+    width: 200%;
+    height: 300px;
+    float: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.youtubeVideos1 {
+    width: 200%;
+    height: 300px;
+    float: left;
+    margin-left: 500px;
+    margin-right:330px;
+}
 .youtube-videos {
     width: 100%;
     height: 300px;
@@ -226,7 +242,6 @@
     margin-top: 30px;
     margin-bottom: 200px;
     float: left;
-    border-left: 3px solid #1e5477;
 }
 
 .youtubeVideoSlideshow {
