@@ -87,7 +87,7 @@ class Header extends HTMLElement {
                 </div>
         </div>
     </div>
-    </header>
+</header>
     </nav>
     `;
     }
@@ -148,7 +148,7 @@ class Footer extends HTMLElement {
                     <a href="2020FallUnGala.html" style="color: #f9f9f9; text-decoration:none;">2020 Fall Un-Gala</a><br>
                     <a href="thirdPartyEvents.html" style="color: #f9f9f9; text-decoration:none;">Third Party Community Events</a><br>
                     <a href="takeABiteOutOfCancer.html" style="color: #f9f9f9; text-decoration:none;">Take a Bite Out of Cancer</a>
-                    <a href="2020-Trees-Wreath-Garland-sale.html" style="color: #f9f9f9; text-decoration:none;">2020 Trees,<br> Wreath, and Garland Sale</a><br>
+                    <a href="2020-Trees-Wreath-Garland-sale.html" style="color: #f9f9f9; text-decoration:none;">2020 Trees,<br>Wreath, and Garland Sale</a><br>
                     <a href="givingThanks.html" style="color: #f9f9f9; text-decoration:none;">#GivingTuesday</a>
                 </p>
             </div>
