@@ -105,6 +105,7 @@ if (!empty($_POST))
     </head>
     <body>
     <main-header></main-header>
+    <div class = wrapper>
     <div class = "center-text">
         <?php
             if (!empty($error))
@@ -208,7 +209,9 @@ if (!empty($_POST))
                     </ul>
                 </fieldset>
             </div>
-        </form>
+        </div>
+    </div>
+    </form>
 
         <main-footer></main-footer>
 
