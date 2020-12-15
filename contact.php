@@ -43,8 +43,8 @@
     <?php
     if($message_sent):
     ?>
-
-        <h3>Thanks, we'll be in touch</h3>
+    
+    <h3>Thanks, we'll be in touch. <a href ="index.html" style = "color: #1e5477; text-decoration:none;">Click here to go back to the main webpage.</a></h3>
 
     <?php
     else:

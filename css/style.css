@@ -1,11 +1,8 @@
 /** This is the CSS page for our website. **/
 
-
 /* Start of Diana's CSS */
 
-
 /*Resource Info*/
-
 .titlePage {
     text-align: center;
     font-size: 30px;
@@ -72,9 +69,7 @@
     padding-right: 50px;
 }
 
-
 /*Images of the books*/
-
 #library {
     float: right;
     padding-left: 80px;
@@ -96,9 +91,7 @@
     padding: 5px;
 }
 
-
 /* Clearfix (clear floats) */
-
 .row::after {
     content: "";
     clear: both;
@@ -140,9 +133,7 @@
     width: 25%;
 }
 
-
 /* Clear floats after image containers */
-
 .rowVideos::after {
     content: "";
     clear: both;
@@ -163,7 +154,6 @@
     margin-right: 100px;
 }
 
-
 .youtubeVideos1 {
     width: 200%;
     height: 300px;
@@ -171,6 +161,7 @@
     margin-left: 500px;
     margin-right:330px;
 }
+
 .youtube-videos {
     width: 100%;
     height: 300px;
@@ -182,9 +173,7 @@
     width: 45%;
 }
 
-
 /*Google map*/
-
 .map {
     width: 640px;
     height: 480px;
@@ -197,9 +186,7 @@
     margin-left: 25px;
 }
 
-
 /*Containers for the text and map in the contact us page*/
-
 #middle {
     margin-right: auto;
     margin-left: auto;
@@ -258,9 +245,7 @@
     margin-bottom: 0px;
 }
 
-
 /*Zoom Programming Page*/
-
 .zoomBodyLinks1 {
     margin-right: auto;
     margin-left: auto;
@@ -350,16 +335,10 @@
 #centerText {
     text-align: center;
 }
-
-
 /* End of Diana's CSS */
 
-
 /* Start of Janeise's CSS */
-
-
 /*CSS for logo at top left of page and dropdown menu titles and donate button at top right of page */
-
 .header-logo {
     display: inline-block;
     vertical-align: middle;
@@ -370,114 +349,78 @@
     height: auto;
     width: 100%;
 }
-
-
 /*End of CSS for logo at top left of page and dropdown menu titles and donate button at top right of page */
 
-
 /* CSS for lady on info and resources HTML page */
-
 .book-lady {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 /* CSS for ladies on body image research HTML page and Quality of Life image on programs and activities page */
-
 .float-right-imgs,
 .float-right-imgs-2 {
     float: right;
     margin-right: 50px;
 }
 
-
 /* Puts a border around ladies on body-image-research.html page */
-
 .float-right-imgs {
     border: 4px solid #555;
 }
 
-
 /* Puts a border around Quality of Life image */
-
 .float-right-imgs-2 {
     border: 5px solid #555;
 }
 
-
 /* CSS for all buttons */
-
-
 /* CSS for top right donate button */
-
 .donate-button {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-
 /*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
-
-.donate-button,
-.donate-button-2,
-.button {
+.donate-button, .donate-button-2, .button {
     background-color: #269CE9;
     border-color: #269CE9;
 }
 
-
 /*CSS for top right donate button, donate button on Support the Center HTML page, and button on 2020 Fall Un-Gala.html page*/
-
-.donate-button,
-.donate-button-2,
-.button {
+.donate-button, .donate-button-2, .button {
     color: #f2f2f2
 }
 
-.donate-button,
-.donate-button-2,
-.button {
+.donate-button, .donate-button-2, .button {
     box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
     user-select: none;
 }
 
-.donate-button,
-.donate-button-2,
-.button {
+.donate-button, .donate-button-2,.button {
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .3)), rgba(255, 255, 255, 0);
 }
 
-.donate-button,
-.donate-button-2,
-.button {
+.donate-button, .donate-button-2, .button {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.donate-button:hover,
-.donate-button-2:hover,
-.button:hover {
+.donate-button:hover, .donate-button-2:hover, .button:hover {
     background-color: #70B9E8;
 }
 
-.donate-button:active,
-.donate-button-2:active,
-.button:active {
+.donate-button:active, .donate-button-2:active, .button:active {
     background: #269CE9;
 }
 
-.donate-button,
-.donate-button-2,
-.button {
+.donate-button, .donate-button-2, .button {
     border-radius: 6px;
     margin: 3px 4px 5px;
     height: 50px;
     padding: 4px 1.5em 4px 2em;
 }
-
-
 /* End of CSS for buttons */
 
 .navbar {
@@ -493,7 +436,6 @@
 
 
 /* Navigation links */
-
 .navbar a {
     float: left;
     font-size: 16px;
@@ -525,24 +467,15 @@ figcaption {
     font-size: 18px;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     font-family: "Overpass";
 }
 
-p,
-strong,
-b,
-i,
-u,
-li {
+p, strong, b, i, u, li {
     font-family: "Montserrat";
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #70B9E8;
 }
 
@@ -572,21 +505,15 @@ li {
     display: block;
 }
 
-
 /* CSS for automatic slideshow on main webpage */
-
-
 /* This is the automatic slideshow container */
-
 .slideshow {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
 
-
 /* Hide images by default */
-
 .mySlides {
     display: none;
     width: 100%;
@@ -597,9 +524,7 @@ li {
     vertical-align: middle;
 }
 
-
 /* Fading animation */
-
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 5s;
@@ -652,7 +577,7 @@ li {
 }
 /* End of CSS for clickable slideshows */
 
-/*CSS for iframe for YT video on main webpage*/
+/* CSS for iframe for YT video on main webpage */
 iframe {
     margin: auto;
     width: 40%;
@@ -664,9 +589,7 @@ iframe {
 .wrapper {
     margin-right: auto; /* 1 */
     margin-left:  auto; /* 1 */
-
-    max-width: 960px; /* 20px smaller, to fit the paddings on the sides */
-  
+    max-width: 960px; /* 20px smaller, to fit the paddings on the sides */  
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -682,7 +605,6 @@ iframe {
 }
 
 /* CSS for container that holds icons and text within footer */
-
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -693,14 +615,11 @@ iframe {
 }
 
 /* Moves copyright text to the bottom of the left main page */
-
 .footer-text {
     margin-right: auto;
 }
 
-
 /*CSS for grid container within footer */
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -708,18 +627,14 @@ iframe {
     padding: 10px;
 }
 
-
 /* Centers all text that should be centered on HTML pages.
 	Also centers volunteer images on Volunteer HTML page. */
-
 .center-text,
 .volunteer-images {
     text-align: center;
 }
 
-
 /* Centers images on the main webpage (center-imgs) */
-
 .center-imgs {
     display: block;
     margin-left: auto;
@@ -729,9 +644,7 @@ iframe {
     transition: transform .5s;
 }
 
-
 /* Makes images on the main webpage rotate when you hover over them */
-
 .center-imgs:hover {
     width: 225px;
     height: 200px;
@@ -740,9 +653,7 @@ iframe {
     transform: scale(1.5); 
 }
 
-
 /* Centers nutrition popup flyer on nutrition-popup-recipes.html page */
-
 .center-img {
     display: block;
     margin-left: auto;
@@ -751,10 +662,8 @@ iframe {
     height: 400px;
 }
 
-
 /* CSS for location information */
 /* Wraps location information in a box*/
-
 * {
     box-sizing: border-box;
 }
@@ -797,7 +706,6 @@ iframe {
     box-sizing: border-box;
 }
 
-
 /* Create two equal columns that floats next to each other */
 .column-1 {
     float: left;
@@ -806,7 +714,6 @@ iframe {
     font-family: "Montserrat";
 }
 
-
 /* Create two equal columns that floats next to each other */
 .column-2 {
     float: left;
@@ -814,7 +721,6 @@ iframe {
     padding: 10px;
     font-family: "Montserrat";
 }
-
 
 /* Clear floats after the columns */
 .row-1:after {
@@ -828,7 +734,6 @@ iframe {
     box-shadow: 0 50vh 0 50vh #D7FFF8;
 }
 /* End of CSS for location information on main webpage */
-
 
 /* CSS for all contact us forms */
 :root {
@@ -922,16 +827,10 @@ textarea {
     opacity: 1;
     transform: translateX(0px);
 }
-
-
 /* End of CSS for Contact Us form*/
 
-
 /* CSS for Staff.html page */
-
-
 /* Centers first photo*/
-
 .staff-photos-1 {
     display: block;
     margin-left: auto;
@@ -974,11 +873,8 @@ textarea {
 .staff-text-2 div,
 .staff-text-3 div {
     display: inline-block;
-    flex-grow: 1;
-    /* flex:1; would make them equal width */
-    /* extra ?*/
+    flex-grow: 1; /* flex:1; would make them equal width */
     margin: 0 0.5em;
-    /* border: solid; */
     text-align: center;
 }
 /* End of CSS for Staff.html page */
@@ -1065,22 +961,16 @@ textarea {
     background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
     background-color: #28739E;
 }
+/* End of CSS for participant form 1 */
 
-
-/* End of CSS for participant form 1*/
-
-
-/* CSS for checkboxes on participant form 1*/
-
+/* CSS for checkboxes on participant form 1 */
 .participant-checkboxes {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
 }
 
-
 /* CSS for volunteer registration forms 1 and 2 */
-
 .volunteer-form-section-1 {
     max-width: 800px;
     background: #FAFAFA;
@@ -1163,27 +1053,21 @@ textarea {
     background-color: #28739E;
 }
 
-
 /* CSS for checkboxes on volunteer form 1*/
-
 .interest-checkboxes {
     -webkit-column-count: 4;
     -moz-column-count: 3;
     column-count: 2;
 }
 
-
 /*CSS for checkboxes on volunteer form 2 */
-
 .availability-checkboxes {
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 3;
 }
 
-
 /* CSS for volunteer registration forms 3, 4, 5, 6, and 7 */
-
 .volunteer-form-section-2 {
     max-width: 800px;
     background: #FAFAFA;
@@ -1265,16 +1149,10 @@ textarea {
     background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
     background-color: #28739E;
 }
-
-
 /* End of CSS for volunteer forms */
 
-
 /*Ancillary Boards Table CSS */
-
-table,
-td,
-th {
+table, td, th {
     border: 1px solid black;
 }
 
@@ -1283,9 +1161,7 @@ table {
     border-collapse: collapse;
 }
 
-
-/**/
-
+/* CSS for some of the other PHP forms */
 .error {
     color: red;
     font-size: small;
@@ -1300,9 +1176,7 @@ table {
     display: table-cell;
 }
 
-.input-group input,
-textarea,
-select {
+.input-group input, textarea, select {
     width: 100%;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1365,3 +1239,5 @@ strong {
     text-decoration: none;
     transition: color 0.25s;
 }
+/* End of CSS for some of the other PHP forms */
+/* End of Janeise's CSS */
