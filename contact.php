@@ -54,7 +54,7 @@
         <h1>Contact Form</h1>
         <p>Have any questions or comments you'd like to send us? Feel free to contact us through the contact form below.<br><br>
             Fields with a * are required to be filled out<br>
-            <p>Also feel free to email <a href="mailto:csc@cancersupportcenter.org">csc@cancersupportcenter.org</a> 
+            <!-- <p>Also feel free to email <a href=""></a> Partner's email goes here-->
                 with any program questions you have may.<br></p>
         </div>        
 

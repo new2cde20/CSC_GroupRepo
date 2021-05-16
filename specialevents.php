@@ -52,7 +52,7 @@
     ?> 
     <main-header></main-header>
     <div class = "center-text">
-        <p>If you have a program question, please email <a href="mailto:csc@cancersupportcenter.org">csc@cancersupportcenter.org</a> or use the form below.</p>
+        <!-- <p>If you have a program question, please email <a href="mailto:"></a> or use the form below.</p> Partner's email goes here -->
     </div>      
 
     <div class = "body-info">

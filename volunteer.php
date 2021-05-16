@@ -241,7 +241,7 @@ if (!empty($_POST))
         <br/>
         <div class = "center-text">
         <p>To learn more about volunteer opportunities, contact
-            <a href="mailto:cturnquest@cancersupportcenter.org">Cynthia Turnquest</a>,
+            <!-- <a href="">Cynthia Turnquest</a>, Partner's email goes here -->
             Director of Outreach & Strategic Partners.</p>
         </div>
         <br/>
@@ -264,7 +264,7 @@ if (!empty($_POST))
         </div>
         <div class = "center-text">
             <p>To learn more about special events volunteer opportunities, contact
-                <a href="mailto:anellett@cancersupportcenter.org">Amanda Nellett</a>,
+                <!-- <a href="">Amanda Nellett</a>, Partner's email goes here -->
                 Special Events Coordinator.
             </p>
         </div>
@@ -290,7 +290,7 @@ if (!empty($_POST))
         <br/>
         <div class = "center-text">
             <p>To learn more about volunteer opportunities, contact
-                <a href="mailto:cturnquest@cancersupportcenter.org">Cynthia Turnquest</a>,
+                <!-- <a href="">Cynthia Turnquest</a>, Partner's email goes here -->
                 Director of Outreach & Strategic Partners.</p>
         </div>
         <br/>        
@@ -309,7 +309,7 @@ if (!empty($_POST))
         <br/>
         <div class = "center-text">
             <p>To learn more about volunteer opportunities, contact
-                <a href="mailto:cturnquest@cancersupportcenter.org">Cynthia Turnquest</a>,
+                <!-- <a href="">Cynthia Turnquest</a>, Partner's email goes here -->
                 Director of Outreach & Strategic Partners.<br/><br/>
                 If you are interested in volunteering at The Village Door consignment shop, please call
                 <a href="tel:+1-708-798-8665">+1 (708) 798-8665</a> for additional information. 
